@@ -1,0 +1,1 @@
+define(["jquery"],function(){return function(n){!function f(n){var i=n.elem,o=i.find(n.options.switchEvent),t=i.find(n.options.switchContainer),e=n.options.openClass;function s(){t.toggleClass("_active"),i.toggleClass(e)}!function c(){o.on("click",s)}()}(n)}});

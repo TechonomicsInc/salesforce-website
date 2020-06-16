@@ -1,0 +1,1 @@
+define(["jquery","domReady"],function(a,n){n(function(){a("[data-module-init]").each(function(n,i){var e=a(i);!function o(t,n,u){a.each(n,function(n,i){var e={elem:t,id:n+"_"+(u+1),options:i};!function o(n,i){require([n],function(n){null!==n&&new n(i)})}(n,e)})}(e,e.data("moduleInit"),n)})})});

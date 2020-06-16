@@ -1,0 +1,1 @@
+define([],function(){return window.storageModule=new Object,this.set=function(e,o){window.storageModule[e]=o},window.storageModule.get=function(e){!arguments.length&&console.log(window.storageModule)},{set:set}});

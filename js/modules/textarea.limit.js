@@ -1,0 +1,2 @@
+define(["jquery"],function(i){return function(n){!function u(n){var e=n.elem,t=n.maxLength;e.prev().on("keyup change",function(){var n=i(this).val().length;e.html(n+"/"+t)})}(n)}});
+//# sourceMappingURL=textarea.limit.js.map

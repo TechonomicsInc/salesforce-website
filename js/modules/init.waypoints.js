@@ -1,0 +1,1 @@
+define(["jquery","domReady"],function(a,n){return function(){!function t(){n(function(){a(".waypoint").each(function(){var t=a(this),n=t.attr("data-offset")?t.attr("data-offset")+"%":"80%";t.waypoint({handler:function(){t.addClass("waypoint-reveal"),this.destroy()},offset:n})})})}()}});
