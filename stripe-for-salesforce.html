@@ -27,7 +27,7 @@
                         }}'>
                         <div id="menu-categories">
                            <ul class="menu-categories__items">
-                              <li data-top-level class="menu-categories__item menu-categories__level-1                         ">
+                              <li data-top-level class="menu-categories__item menu-categories__level-1 menu-categories__item-active">
                                  <div class="menu-categories__title--level-1">
                                     <span class="menu-title">Products</span>
                                  </div>
@@ -50,7 +50,7 @@
                                                    <span class="menu-title">Easy Forms</span>
                                                    </a>
                                                 </div>
-                                                <div class="menu-categories__title--level-2
+                                                <div class="menu-categories__title--level-2 active
                                                    ">
                                                    <a href="stripe-for-salesforce.html">
                                                    <span class="menu-title">Stripe for Salesforce</span>
@@ -76,7 +76,7 @@
                                     </div>
                                  </div>
                               </li>
-                              <li data-top-level class="menu-categories__item menu-categories__level-1 menu-categories__item-active">
+                              <li data-top-level class="menu-categories__item menu-categories__level-1">
                                  <div class="menu-categories__title--level-1">
                                     <span class="menu-title">Services</span>
                                  </div>
@@ -93,7 +93,7 @@
                                           </div>
                                           <div class="sub-columns__columns">
                                              <div class="sub-columns__column">
-                                                <div class="menu-categories__title--level-2 active
+                                                <div class="menu-categories__title--level-2
                                                    ">
                                                    <a href="salesforce.html">
                                                    <span class="menu-title">Salesforce</span>
@@ -157,7 +157,7 @@
                                     </div>
                                  </div>
                               </li>
-                              <li data-top-level class="menu-categories__item menu-categories__level-1                         ">
+                              <li data-top-level class="menu-categories__item menu-categories__level-1 ">
                                  <div class="menu-categories__title--level-1">
                                     <span class="menu-title">Industries</span>
                                  </div>
@@ -174,7 +174,7 @@
                                           </div>
                                           <div class="sub-columns__columns">
                                              <div class="sub-columns__column">
-                                                <div class="menu-categories__title--level-2
+                                                <div class="menu-categories__title--level-2 active
                                                    ">
                                                    <a href="healthcare.html">
                                                    <span class="menu-title">Healthcare</span>
@@ -424,477 +424,414 @@
             <div class="p-simple">
                <div class="container">
                   <div class="row">
-                     <div class="col-12 col-xl-3">
-                        <!--[if IE]><!-- zone: sidebar --><!--[endif]---->
-                        <div class="page-menu__wrapper  " data-nosnippet="">
-                           <div class="page-menu">
-                              <input type="checkbox" name="menu" id="toggle-menu" class="d-xl-none page-menu__checkbox" data-piwik-event="Mobile cluster menu icon,click,">
-                              <label for="toggle-menu" class="sr-only">Toggle site menu</label>
-                              <div class="page-menu__current">
-                                 <div class="page-menu__current-link">
-                                    <span class="page-menu__current-title" data-nosnippet="">Salesforce </span>
-                                 </div>
-                              </div>
-                              <div class="page-menu__toggle"></div>
-                              <div class="page-menu__scroll" data-simplebar="init">
-                                 <div class="simplebar-wrapper" style="margin: 0px;">
-                                    <div class="simplebar-height-auto-observer-wrapper">
-                                       <div class="simplebar-height-auto-observer"></div>
-                                    </div>
-                                    <div class="simplebar-mask">
-                                       <div class="simplebar-offset" style="right: -15px; bottom: 0px;">
-                                          <div class="simplebar-content-wrapper" style="height: 100%; overflow: hidden scroll;">
-                                             <div class="simplebar-content" style="padding: 0px;">
-                                                <div class="page-menu__sub">
-                                                   <div class="page-menu__current">
-                                                      <div class="page-menu__current-link">
-                                                         <span class="page-menu__current-title" data-nosnippet="">Salesforce </span>
-                                                      </div>
-                                                   </div>
-                                                   <div class="page-menu__toggle"></div>
-                                                   <ul>
-                                                      <li class="page-menu__item ">
-                                                         <div class="page-menu__item-link">
-                                                            <a href="sales-cloud.html" title="Sales Cloud">
-                                                            <span data-nosnippet="">Sales Cloud</span>
-                                                            </a>
-                                                         </div>
-                                                      </li>
-                                                      <li class="page-menu__item ">
-                                                         <div class="page-menu__item-link">
-                                                            <a href="service-cloud.html" title="Service cloud">
-                                                            <span data-nosnippet="">Service cloud</span>
-                                                            </a>
-                                                         </div>
-                                                      </li>
-                                                      <li class="page-menu__item ">
-                                                         <div class="page-menu__item-link">
-                                                            <a href="marketing.html" title="Salesforce Demos" data-piwik-event="Left menu,click,Salesforce Demos">
-                                                            <span data-nosnippet="">Marketing</span>
-                                                            </a>
-                                                         </div>
-                                                         <label for="submenu-toggle" class="sr-only">Toggle submenu</label>
-                                                         <input type="checkbox" id="submenu-toggle" name="menu" class="page-menu__checkbox --sub
-                                                            " checked="" data-piwik-event="Left menu,click,Salesforce Demos">
-                                                         <button type="button" class="page-menu__toggle level-3"></button>
-                                                         <script type="text/javascript">
-                                                            require(['main'], function () {
-                                                              require([
-                                                                'jquery'
-                                                                ], function ($) {
-                                                                   var $elem = $('.page-menu__checkbox');
-                                                                   var parent = $('#sub5').closest('.page-menu__sub-items');
-                                                                   $(parent).siblings('#submenu-toggle').removeClass('unchecked');
-                                                            
-                                                                   $elem.change(function () {
-                                                                     var $submenu = $(this).siblings('.page-menu__sub-items');
-                                                            
-                                                                     if ($(this).hasClass('unchecked') && window.innerWidth >= 1200) {
-                                                                       this.checked = true;
-                                                                    }
-                                                            
-                                                                    if ($submenu) {
-                                                                       if (this.checked) {
-                                                                         $submenu.slideDown();
-                                                                      } else {
-                                                                         $submenu.slideUp();
-                                                                      }
-                                                                   }
-                                                            
-                                                                   $(this).removeClass('unchecked');
-                                                                });
-                                                                })
-                                                            });
-                                                         </script>
-                                                         <ul class="page-menu__sub-items">
-                                                            <li class="page-menu__item ">
-                                                               <div class="page-menu__item-link">
-                                                                  <a href="marketing-cloud.html" title="360° Customer Profile" data-piwik-event="Left menu,click,360° Customer Profile">
-                                                                  <span data-nosnippet="">Marketing Cloud</span>
-                                                                  </a>
-                                                               </div>
-                                                            </li>
-                                                            <li class="page-menu__item ">
-                                                               <div class="page-menu__item-link">
-                                                                  <a href="pardot.html" title="Marketing Cloud: Email Marketing" data-piwik-event="Left menu,click,Marketing Cloud: Email Marketing">
-                                                                  <span data-nosnippet="">Pardot</span>
-                                                                  </a>
-                                                               </div>
-                                                            </li>
-                                                         </ul>
-                                                      </li>
-                                                      <li class="page-menu__item ">
-                                                         <div class="page-menu__item-link">
-                                                            <a href="community.html" title="Salesforce Customization" data-piwik-event="Left menu,click,Salesforce Customization">
-                                                            <span data-nosnippet="">Community</span>
-                                                            </a>
-                                                         </div>
-                                                      </li>
-                                                      <li class="page-menu__item ">
-                                                         <div class="page-menu__item-link">
-                                                            <a href="financial-services-cloud.html" title="Salesforce App Development" data-piwik-event="Left menu,click,Salesforce App Development">
-                                                            <span data-nosnippet="">Financial services cloud</span>
-                                                            </a>
-                                                         </div>
-                                                      </li>
-                                                      <li class="page-menu__item ">
-                                                         <div class="page-menu__item-link">
-                                                            <a href="health-cloud.html" title="Salesforce Integration" data-piwik-event="Left menu,click,Salesforce Integration">
-                                                            <span data-nosnippet="">Health cloud</span>
-                                                            </a>
-                                                         </div>
-                                                      </li>
-                                                      <li class="page-menu__item ">
-                                                         <div class="page-menu__item-link">
-                                                            <a href="commerce-cloud.html" title="Salesforce Support" data-piwik-event="Left menu,click,Salesforce Support">
-                                                            <span data-nosnippet="">Commerce cloud</span>
-                                                            </a>
-                                                         </div>
-                                                      </li>
-                                                      <li class="page-menu__item ">
-                                                         <div class="page-menu__item-link">
-                                                            <a href="cloud-craze.html" title="Salesforce Managed Services" data-piwik-event="Left menu,click,Salesforce Managed Services">
-                                                            <span data-nosnippet="">Cloud craze</span>
-                                                            </a>
-                                                         </div>
-                                                      </li>
-                                                      
-                                                      <li class="page-menu__item ">
-                                                         <div class="page-menu__item-link">
-                                                            <a href="npsp.html" title="Salesforce Sales Cloud" data-piwik-event="Left menu,click,Salesforce Sales Cloud">
-                                                            <span data-nosnippet="">NPSP</span>
-                                                            </a>
-                                                         </div>
-                                                      </li>
-                                                      <li class="page-menu__item ">
-                                                         <div class="page-menu__item-link">
-                                                            <a href="salesforce-cpq.html" title="Salesforce Service Cloud" data-piwik-event="Left menu,click,Salesforce Service Cloud">
-                                                            <span data-nosnippet="">Salesforce CPQ</span>
-                                                            </a>
-                                                         </div>
-                                                      </li>
-                                                      <li class="page-menu__item ">
-                                                         <div class="page-menu__item-link">
-                                                            <a href="data.html" title="Salesforce Marketing Cloud" data-piwik-event="Left menu,click,Salesforce Marketing Cloud">
-                                                            <span data-nosnippet="">Data.com</span>
-                                                            </a>
-                                                         </div>
-                                                      </li>                                                      
-                                                   </ul>
-                                                </div>
-                                                <div class="page-menu__snippets">
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="simplebar-placeholder" style="width: auto; height: 788px;"></div>
-                                 </div>
-                                 <div class="simplebar-track simplebar-horizontal" style="visibility: hidden;">
-                                    <div class="simplebar-scrollbar" style="transform: translate3d(0px, 0px, 0px); display: none;"></div>
-                                 </div>
-                                 <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
-                                    <div class="simplebar-scrollbar" style="height: 67px; transform: translate3d(0px, 0px, 0px); display: block;"></div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <!--[if IE]><!-- ~zone: sidebar --><!--[endif]---->
-                     </div>
-                     <div class="col-12 col-xl-9">
+                     <div class="col-12">
                         <div class="breadcrumbs j-breadcrumb ">
-                           <ul class="breadcrumbs__list " itemscope="" itemtype="http://schema.org/BreadcrumbList">
-                              <li class="breadcrumbs__item" id="breadcrumb_1" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                           <ul class="breadcrumbs__list " itemscope itemtype="http://schema.org/BreadcrumbList">
+                              <li class="breadcrumbs__item" id="breadcrumb_1" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
                                  <a class="breadcrumbs__item-link" href="index.html" title="Home" itemtype="http://schema.org/Thing" itemprop="item" data-piwik-event="Breadcrumb menu,click,Home">
                                     <span class="breadcrumbs__title" itemprop="name">Home</span>
-                                    <meta itemprop="position" content="1">
+                                    <meta itemprop="position" content="1" />
                                  </a>
                               </li>
-                              <li class="breadcrumbs__item" id="breadcrumb_2" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                              <li class="breadcrumbs__item" id="breadcrumb_2" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
                                  <i class="icon-s-slider-arrow breadcrumbs__icon"></i>
-                                 <a class="breadcrumbs__item-link" href="salesforce.html" itemtype="http://schema.org/Thing" itemprop="item" data-piwik-event="Breadcrumb menu,click,Salesforce">
-                                    <span class="breadcrumbs__title" itemprop="name">Salesforce</span>
-                                    <meta itemprop="position" content="2">
+                                 <a class="breadcrumbs__item-link" href="stripe-for-salesforce.html" itemtype="http://schema.org/Thing" itemprop="item" data-piwik-event="Breadcrumb menu,click,Stripe for Salesforce">
+                                    <span class="breadcrumbs__title" itemprop="name">Stripe for Salesforce</span>
+                                    <meta itemprop="position" content="2" />
                                  </a>
                               </li>
                            </ul>
                         </div>
                         <h1 class="p-simple__heading">
-                           Salesforce Professional Services
+                           Stripe for Salesforce
                         </h1>
                         <div class="p-simple__content">
-                           <p><img alt="Salesforce services - Adisols" class="lazyload lazyloaded" data-src="cover-pictures/salesforce-services_1.svg" src="cover-pictures/salesforce-services_1.svg"></p>
-                           <p>For 12&nbsp;years, Adisols’s&nbsp;solutions have been proving that a thought-out CRM strategy and robust software add up to efficient customer relationship management. To achieve this goal, our team assists you at any stage of the Salesforce&nbsp;implementation, from consulting and tweaking the platform to custom solution development and user training.</p>
-                           <div class="pimcore_area_button-text pimcore_area_content">
-                              <section class="a-card a-button-text">
-                                 <div class="row">
-                                    <div class="col-12 col-lg-10 offset-lg-1 col-xxl-12">
-                                       <div class="a-button-text__title">
-                                          Want to Maximize Your Salesforce Value?
+                           <p><img alt="Healthcare medical IT consulting services - Adisols" class="lazyload lazyloaded" data-src="cover-pictures/healthcare-medical-it-consulting-services.svg" src="cover-pictures/healthcare-medical-it-consulting-services.svg" /></p>
+                           <p>Adisols brings in <strong>14&nbsp;years</strong> in healthcare IT consulting and development to back up medical clients in their calling to save lives and sustain high population health with software built around individuals and their needs.</p>
+                           <p>We provide hospitals, clinics, assisted living facilities and other organizations with task-driven services to help them reduce readmissions, protect PHI, balance costs and improve outcomes.</p>                         
+                           <div class="pimcore_area_slider pimcore_area_content">
+                              <section class="a-slider">
+                                 <h2 class="a-slider__title">Our Health Software Solutions</h2>
+                                 <div class="a-slider__list">
+                                    <div class="a-slider__items" data-slider="slider-editable">
+                                       <div class="text-center a-slider__item">
+                                          <div class="a-slider__image">
+                                             <img class="lazy" data-src="healthcare-slider/healthcare-crm-for-medical-and-research-center-01.png" data-sizes="100w" alt="Healthcare CRM for Medical and Research Center">
+                                          </div>
+                                          <div class="a-slider__text">
+                                             Healthcare CRM for Medical and Research Center
+                                          </div>
+                                       </div>
+                                       <div class="text-center a-slider__item">
+                                          <div class="a-slider__image">
+                                             <img class="lazy" data-src="healthcare-slider/care-team-coordination-application-01_1.png" data-sizes="100w" alt="Care Team Coordination Application for 120+ Caregivers">
+                                          </div>
+                                          <div class="a-slider__text">
+                                             Care Team Coordination Application for 120+ Caregivers
+                                          </div>
+                                       </div>
+                                       <div class="text-center a-slider__item">
+                                          <div class="a-slider__image">
+                                             <img class="lazy" data-src="healthcare-slider/mobile-care-coordination-app.png" data-sizes="100w" alt="Mobile Care Coordination">
+                                          </div>
+                                          <div class="a-slider__text">
+                                             Mobile Care Coordination
+                                          </div>
                                        </div>
                                     </div>
-                                 </div>
-                                 <div class="row">
-                                    <div class="col-12 col-md-8 col-lg-7 offset-lg-1 col-xxl-7">
-                                       <div class="a-button-text__description">
-                                          If you’re looking to make the most of your Salesforce solution, check what prevents it from working to the full. Adisols’s experts are ready to audit your Salesforce CRM, spotting inefficient processes, duplicate records, and other faults to help you leverage your Salesforce potential.
-                                       </div>
-                                    </div>
-                                    <div class="col-12 col-md-4 col-lg-3 col-xxl-3">
-                                       <div class="a-button-text__link">
-                                          <a class="btn-default" href="/services/salesforce-services-new/salesforce-managed-services/contact-us-salesforce-managed-audit" data-module-init="{&quot;buttonLiveChat&quot;:{ &quot;text&quot;: &quot;Get Salesforce audit&quot;, &quot;editable&quot;: &quot;Button-Text&quot;}}">Get Salesforce audit</a>
-                                       </div>
+                                    <script type="text/javascript">
+                                       require(['main'], function () {
+                                           require([
+                                               'jquery',
+                                               'bxSlider'
+                                           ], function ($) {
+                                               $('[data-slider="slider-editable"]').each(function () {
+                                                   var $slider = $(this),
+                                                       options = new Array([
+                                           {
+                                               size: 0,
+                                               props: {
+                                                    slideWidth: 1600,
+                                                    maxSlides: 1,
+                                                    minSlides: 1,
+                                                    moveSlides: 1,
+                                                    adaptiveHeight: false,
+                                                    pager: true,
+                                                    controls: true,
+                                                    nextText: "",
+                                                    prevText: "",
+                                                    infiniteLoop: true,
+                                                    buildPager: function(slideIndex){
+                                                      return '<span data-piwik-event="Editable: Slider,click,paging: [' + slideIndex + ']">slideIndex</span>';
+                                                     },
+                                                    onSlideBefore: function($slideElement, oldIndex, newIndex) {
+                                                       var $buttonsContainer = $slideElement.parents(".a-slider__list").find(".a-slider__button"),
+                                                           $prevSlideBtn = $buttonsContainer.find("#slider-button-" + oldIndex),
+                                                           $nextSlideBtn = $buttonsContainer.find("#slider-button-" + newIndex);
+                                       
+                                                       $prevSlideBtn.hide();
+                                                       $nextSlideBtn.show();
+                                                    },
+                                                    onSlidePrev: function($slideElement, oldIndex, newIndex) {
+                                                       if (typeof _paq !== "undefined") {
+                                                           _paq.push(["trackEvent", "Editable: Slider", "Editable: Slider: click", "Editable: Slider: click: prev: [" + newIndex + "]"]);
+                                                       }
+                                                    },
+                                                    onSlideNext: function($slideElement, oldIndex, newIndex) {
+                                                       if (typeof _paq !== "undefined") {
+                                                           _paq.push(["trackEvent", "Editable: Slider", "Editable: Slider: click", "Editable: Slider: click: next: [" + newIndex + "]"]);
+                                                       }
+                                                    }
+                                               }
+                                           }
+                                       ]);
+                                       
+                                                   var defaultOptions = {
+                                                       maxSlides: 1,
+                                                       adaptiveHeight: true,
+                                                       preloadImages: 'visible',
+                                                       touchEnabled: true,
+                                                       oneToOneTouch: true,
+                                                       swipeThreshold: 100,
+                                                       pager: true,
+                                                       controls: true,
+                                                       infiniteLoop: true,
+                                                       onSliderResize: function () {
+                                                           switchSlider();
+                                                       }
+                                                   };
+                                       
+                                                   var itDestroy = false,
+                                                       constructedSlider = false, slides = $(this).children(), slidesNotEmpty = slides.filter(function () {return $.trim($(this).html());}).length;
+                                       
+                                                   switchSlider(slidesNotEmpty);
+                                       
+                                                   if (itDestroy) {
+                                                       $(window).on("resize", function () {
+                                                           switchSlider(slidesNotEmpty);
+                                                       });
+                                                   }
+                                       
+                                                   $slider.find('img').one('load', function () {
+                                                       if ($slider.parent().height() < $slider.height()) {
+                                                           $slider.parent().height($slider.height());
+                                                       }
+                                                   });
+                                       
+                                                   function switchSlider(length) {
+                                       
+                                                       if (!itDestroy || window.innerWidth <= itDestroy.point) {
+                                                           constructedSlider = !constructedSlider.reloadSlider ? $slider.bxSlider(defaultOptions) : constructedSlider;
+                                       
+                                                           if (length <= 1) {
+                                                               constructedSlider.destroySlider();
+                                                           } else {
+                                                               var windowWidth = window.innerWidth,
+                                                                   newOptions = $.extend({}, defaultOptions);
+                                       
+                                                               if (options.length) {
+                                                                   options[0].forEach(function (item) {
+                                                                       if (!isNaN(parseFloat(item.size)) && windowWidth >= parseFloat(item.size)) {
+                                                                           newOptions = $.extend(newOptions, item.props);
+                                                                       }
+                                                                   });
+                                       
+                                       
+                                                                   if (constructedSlider) {
+                                                                       constructedSlider.reloadSlider(newOptions);
+                                                                   }
+                                       
+                                                               }
+                                                           }
+                                       
+                                       
+                                                       } else if (constructedSlider) {
+                                                           constructedSlider.destroySlider();
+                                                           constructedSlider = false;
+                                                       }
+                                                   }
+                                               });
+                                           });
+                                       });
+                                    </script> 
+                                    <div class="d-flex justify-content-center a-slider__button">
+                                       <a data-piwik-event="Editable: Slider,click,button: [Learn more]: [0]" class="m-0 btn-white" id="slider-button-0" href="/case-studies/healthcare-crm-for-medical-and-research-center" target="_blank">
+                                       Learn more
+                                       </a>
+                                       <a data-piwik-event="Editable: Slider,click,button: [Learn more]: [1]" class="m-0 btn-white" id="slider-button-1" href="/case-studies/care-team-coordination-application-for-120-caregivers" target="_blank">
+                                       Learn more
+                                       </a>
+                                       <a data-piwik-event="Editable: Slider,click,button: [Learn more]: [2]" class="m-0 btn-white" id="slider-button-2" href="/case-studies/mobile-care-coordination" target="_blank">
+                                       Learn more
+                                       </a>
+                                       <a data-piwik-event="Editable: Slider,click,button: [Learn more]: [3]" class="m-0 btn-white" id="slider-button-3" href="/case-studies/inpatient-care-mobile-app" target="_blank">
+                                       Learn more
+                                       </a>
+                                       <a data-piwik-event="Editable: Slider,click,button: [Learn more]: [4]" class="m-0 btn-white" id="slider-button-4" href="/case-studies/android-telehealth-chiron-app" target="_blank">
+                                       Learn more
+                                       </a>
+                                       <a data-piwik-event="Editable: Slider,click,button: [Learn more]: [5]" class="m-0 btn-white" id="slider-button-5" href="/case-studies/sharepoint-online-learning-portal-for-a-uk-social-care-services-provider" target="_blank">
+                                       Learn more
+                                       </a>
+                                       <a data-piwik-event="Editable: Slider,click,button: [Learn more]: [6]" class="m-0 btn-white" id="slider-button-6" href="/case-studies/bi-for-a-us-medical-provider-rendering-mobile-diagnostic-imaging-services-to-800-facilities" target="_blank">
+                                       Learn more
+                                       </a>
+                                       <a data-piwik-event="Editable: Slider,click,button: [Learn more]: [7]" class="m-0 btn-white" id="slider-button-7" href="/case-studies/bi-for-200-healthcare-centers" target="_blank">
+                                       Learn more
+                                       </a>
+                                       <a data-piwik-event="Editable: Slider,click,button: [Learn more]: [8]" class="m-0 btn-white" id="slider-button-8" href="/case-studies/brain-tumor-localization-application" target="_blank">
+                                       Learn more
+                                       </a>
                                     </div>
                                  </div>
                               </section>
                            </div>
                            <div class="pimcore_area_wysiwyg pimcore_area_content">
                               <section class="a-wysiwyg ">
-                                 <h2>Why Choose Adisols</h2>
-                                 <ul style="list-style-type:square">
-                                    <li>30 years in IT business</li>
-                                    <li>12&nbsp;years in CRM development</li>
-                                    <li>700 professionals on board</li>
-                                    <li><a href="https://www.scnsoft.com/about/partnerships/salesforce">Salesforce partner</a></li>
-                                    <li>A team of certified Salesforce developers and admins</li>
-                                    <li>Industry expertise in manufacturing, retail, professional services, healthcare, banking, telecoms, etc.</li>
-                                    <li>Multi-disciplinary expertise generated during 30 years in software development and consulting (experience in IoT, big data, data science, collaboration solutions, mobile app development and image analysis applied to complex projects that go beyond Salesforce)</li>
-                                    <li>Featured in Forrester’s 2018 Now Tech overview as a recommended custom software provider</li>
-                                 </ul>
-                                 <h2>Customers Say</h2>
-                                 <blockquote>
-                                    <p>“Adisols has done an amazing job of making our internal processes more efficient, implementing changes without causing any interruptions to the business. The changes they've made within Salesforce are reliable and functional.”</p>
-                                 </blockquote>
-                                 <p style="text-align:right"><em>The National Manager of a US-based Roofing Company</em></p>
-                                 <p style="text-align:right"><a class="btn-white" data-ga-event="Buttons,Buttons click,Contact us" data-piwik-event="Buttons,click,Contact us" href="https://www.scnsoft.com/case-studies/salesforce-customization-for-the-roofing-services-provider?t=10357">View the project</a></p>
-                                 <h2>Our Salesforce Services</h2>
-                                 <p>Adisols provides a full set of Salesforce professional services to support your CRM strategy with an appropriate software solution.</p>
+                                 <h2>Solutions to Beat the Challenge</h2>
+                                 <p>Our IT specialists create convenient software to help you optimize workflows, analyze healthcare data and enable reimbursable remote care, all wrapped up in an intuitive visual design.&nbsp;</p>
                               </section>
                            </div>
                            <div class="pimcore_area_wide-service-cards pimcore_area_content">
                               <div class="a-service-cards">
                                  <div class="a-service-cards_logo">
-                                    <p><img alt="Consulting" class="lazyload" data-src="blue-icons-on-grey-background/consulting.svg" src="blue-icons-on-grey-background/consulting.svg" style="height:100px; width:100px"></p>
+                                    <p><img alt="Chronic disease management" class="lazyload" data-src="blue-icons-on-grey-background/chronic_disease_management.svg" src="blue-icons-on-grey-background/chronic_disease_management.svg" style="height:100px; width:100px" /></p>
                                  </div>
                                  <div class="a-service-cards_content">
                                     <div>
                                        <div class="a-service-cards_content-header">
-                                          Salesforce consulting
+                                          Chronic disease management
                                        </div>
                                        <div class="a-service-cards_content-title">
-                                          <p>Rely on our skilled consultants to solve your specific CRM challenges – from low sales productivity and deficient alignment between departments to CRM performance issues. Our experts will train your employees to fulfill the potential of Salesforce.</p>
+                                          <p>Offer your patients personalized care and continuous communication between appointments. Simplify their daily routine by timely notifying about medication intake, giving tips on nutrition and physical activity and reminding about the importance of journalizing subjective and objective. With a <em>holistic system</em> including a patient mobile application and a central server connected to the EHR, you can improve population health, patients’ outcomes and your revenues.&nbsp;</p>
                                        </div>
                                     </div>
-                                    <a href="/services/salesforce/consulting" target="" class="a-service-cards_content-link-wrap" data-piwik-event="Editable: Wide-service-cards,click,link: Salesforce consulting"></a>
-                                    <div class="a-service-cards_content-link btn-link-arrow  btn-link-arrow--right">check our salesforce consulting services</div>
+                                    <a href="https://www.scnsoft.com/healthcare/chronic-disease-management" target="" class="a-service-cards_content-link-wrap" data-piwik-event="Editable: Wide-service-cards,click,link: Chronic disease management"></a>
+                                    <div class="a-service-cards_content-link btn-link-arrow  btn-link-arrow--right">empower chronic disease management</div>
                                  </div>
                               </div>
                               <div class="a-service-cards">
                                  <div class="a-service-cards_logo">
-                                    <p><img alt="Salesforce implementation" class="lazyload" data-src="blue-icons-on-grey-background/implementation.svg" src="blue-icons-on-grey-background/implementation.svg" style="height:100px; width:100px"></p>
+                                    <p><img alt="Medical image analysis" class="lazyload" data-src="blue-icons-on-grey-background/medical_image_analysis.svg" src="blue-icons-on-grey-background/medical_image_analysis.svg" style="height:100px; width:100px" /></p>
                                  </div>
                                  <div class="a-service-cards_content">
                                     <div>
                                        <div class="a-service-cards_content-header">
-                                          Salesforce implementation
+                                          Medical image analysis
                                        </div>
                                        <div class="a-service-cards_content-title">
-                                          <p>Our team is ready to perform Salesforce implementation for you to get a reliable solution. From implementation consulting to after-launch support, we work on the solution that will efficiently address your business needs.</p>
+                                          <p>Whether a researcher, innovator or medical device manufacturer, you can assist clinical stakeholders in tackling tough challenges of 3D imaging across modalities. Help your clients to reduce the number of misdiagnosis cases, medical errors and exploratory surgeries. Unlock the capabilities of medical image processing and analysis for your organization.</p>
                                        </div>
                                     </div>
-                                    <a href="/services/salesforce/implementation" target="" class="a-service-cards_content-link-wrap" data-piwik-event="Editable: Wide-service-cards,click,link: Salesforce implementation"></a>
-                                    <div class="a-service-cards_content-link btn-link-arrow  btn-link-arrow--right">check our salesforce implementation services</div>
+                                    <a href="https://www.scnsoft.com/healthcare/image-analysis" target="" class="a-service-cards_content-link-wrap" data-piwik-event="Editable: Wide-service-cards,click,link: Medical image analysis"></a>
+                                    <div class="a-service-cards_content-link btn-link-arrow  btn-link-arrow--right">back up your clinical &amp; research decisions</div>
                                  </div>
                               </div>
                               <div class="a-service-cards">
                                  <div class="a-service-cards_logo">
-                                    <p><img alt="Customization" class="lazyload" data-src="blue-icons-on-grey-background/configuration.svg" src="blue-icons-on-grey-background/configuration.svg" style="height:100px; width:100px"></p>
+                                    <p><img alt="Healthcare CRM" class="lazyload" data-src="blue-icons-on-grey-background/crm.svg" src="blue-icons-on-grey-background/crm.svg" style="height:100px; width:100px" /></p>
                                  </div>
                                  <div class="a-service-cards_content">
                                     <div>
                                        <div class="a-service-cards_content-header">
-                                          Salesforce customization
+                                          Healthcare CRM
                                        </div>
                                        <div class="a-service-cards_content-title">
-                                          <p>Get a solution designed to fit the requirements of your industry and business. Unlock all capabilities of the Salesforce platform with fine-tuned modules for sales and marketing automation, lead and opportunity management, performance management, reporting and more.</p>
+                                          <p>Treat your patients like customers, understanding their needs better and building trustworthy relationships. Merge your CRM with the EHR to gain, engage and retain your patients with multiple communication channels at your disposal. Be it your website, call center, social media or else – you can always keep the patient’s experience positive and personal.&nbsp;</p>
                                        </div>
                                     </div>
-                                    <a href="/services/salesforce/customization" target="" class="a-service-cards_content-link-wrap" data-piwik-event="Editable: Wide-service-cards,click,link: Salesforce customization"></a>
-                                    <div class="a-service-cards_content-link btn-link-arrow  btn-link-arrow--right">check our salesforce customization services</div>
+                                    <a href="https://www.scnsoft.com/healthcare/crm" target="" class="a-service-cards_content-link-wrap" data-piwik-event="Editable: Wide-service-cards,click,link: Healthcare CRM"></a>
+                                    <div class="a-service-cards_content-link btn-link-arrow  btn-link-arrow--right">explore CRM</div>
                                  </div>
                               </div>
                               <div class="a-service-cards">
                                  <div class="a-service-cards_logo">
-                                    <p><img alt="Application development" class="lazyload" data-src="blue-icons-on-grey-background/technologies/application_01.svg" src="blue-icons-on-grey-background/technologies/application_01.svg" style="height:100px; width:100px"></p>
+                                    <p><img alt="Healthcare data analytics" class="lazyload" data-src="blue-icons-on-grey-background/data_analysis_reporting.svg" src="blue-icons-on-grey-background/data_analysis_reporting.svg" style="height:100px; width:100px" /></p>
                                  </div>
                                  <div class="a-service-cards_content">
                                     <div>
                                        <div class="a-service-cards_content-header">
-                                          Salesforce application development
+                                          Healthcare data analytics
                                        </div>
                                        <div class="a-service-cards_content-title">
-                                          <p>Get a custom Salesforce application to go far beyond default functionality in improving your sales, marketing and customer service processes, or an AppExchange app to generate revenue from it, or an app to integrate your software product with Salesforce.</p>
+                                          <p>Make big data work for your revenue. Transform raw numbers into meaningful insights and get multidimensional reports, charts and metrics in one tap. Visualize your outcomes and costs as well as financial management and operative processes to highlight achievements and gaps.&nbsp;</p>
                                        </div>
                                     </div>
-                                    <a href="/services/salesforce/app-development" target="" class="a-service-cards_content-link-wrap" data-piwik-event="Editable: Wide-service-cards,click,link: Salesforce application development"></a>
-                                    <div class="a-service-cards_content-link btn-link-arrow  btn-link-arrow--right">check our salesforce application development services</div>
+                                    <a href="https://www.scnsoft.com/healthcare/data-analytics" target="" class="a-service-cards_content-link-wrap" data-piwik-event="Editable: Wide-service-cards,click,link: Healthcare data analytics"></a>
+                                    <div class="a-service-cards_content-link btn-link-arrow  btn-link-arrow--right">analyze care data</div>
                                  </div>
                               </div>
                               <div class="a-service-cards">
                                  <div class="a-service-cards_logo">
-                                    <p><img alt="Migration" class="lazyload" data-src="blue-icons-on-grey-background/content_migration.svg" src="blue-icons-on-grey-background/content_migration.svg" style="height:100px; width:100px"></p>
+                                    <p><img alt="Postoperative care management" class="lazyload" data-src="blue-icons-on-grey-background/postoperative_care_management.svg" src="blue-icons-on-grey-background/postoperative_care_management.svg" style="height:100px; width:100px" /></p>
                                  </div>
                                  <div class="a-service-cards_content">
                                     <div>
                                        <div class="a-service-cards_content-header">
-                                          Salesforce migration
+                                          Postoperative care management
                                        </div>
                                        <div class="a-service-cards_content-title">
-                                          <p>Safely migrate to Salesforce from your legacy system, on-premises or cloud hosted. Our team will help to securely transfer all customer data, minimize work disruptions and speed up user adoption.</p>
+                                          <p>Ensure your patients’ successful post-surgery recovery between nurse visits and appointments. Track individuals’ objective and subjective and monitor wound healing for early signs of SSI. Reduce complications, exacerbations and readmissions.</p>
                                        </div>
                                     </div>
-                                 </div>
-                              </div>
-                              <div class="a-service-cards">
-                                 <div class="a-service-cards_logo">
-                                    <p><img alt="Integration" class="lazyload" data-src="blue-icons-on-grey-background/integration.svg" src="blue-icons-on-grey-background/integration.svg" style="height:100px; width:100px"></p>
-                                 </div>
-                                 <div class="a-service-cards_content">
-                                    <div>
-                                       <div class="a-service-cards_content-header">
-                                          Salesforce integration
-                                       </div>
-                                       <div class="a-service-cards_content-title">
-                                          <p>Ensure a seamless information flow between departments and get full customer data consistency by connecting Salesforce to other corporate software run on the premises or hosted in the cloud. We are ready to take up complex projects regarding Salesforce integration with ERP, CRM, accounting, marketing automation, and other systems.</p>
-                                       </div>
-                                    </div>
-                                    <a href="/services/salesforce/integration" target="" class="a-service-cards_content-link-wrap" data-piwik-event="Editable: Wide-service-cards,click,link: Salesforce integration"></a>
-                                    <div class="a-service-cards_content-link btn-link-arrow  btn-link-arrow--right">check our salesforce integration services</div>
-                                 </div>
-                              </div>
-                              <div class="a-service-cards">
-                                 <div class="a-service-cards_logo">
-                                    <p><img alt="Upgrade" class="lazyload" data-src="blue-icons-on-grey-background/updates.svg" src="blue-icons-on-grey-background/updates.svg" style="height:100px; width:100px"></p>
-                                 </div>
-                                 <div class="a-service-cards_content">
-                                    <div>
-                                       <div class="a-service-cards_content-header">
-                                          Salesforce upgrade
-                                       </div>
-                                       <div class="a-service-cards_content-title">
-                                          <p>As long as your business grows, extend the platform’s functionality, get custom add-ons and incorporate technical advances into your Salesforce to stay ahead of the competition.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="a-service-cards">
-                                 <div class="a-service-cards_logo">
-                                    <p><img alt="Support and maintenance" class="lazyload" data-src="blue-icons-on-grey-background/support.svg" src="blue-icons-on-grey-background/support.svg" style="height:100px; width:100px"></p>
-                                 </div>
-                                 <div class="a-service-cards_content">
-                                    <div>
-                                       <div class="a-service-cards_content-header">
-                                          Salesforce support and maintenance
-                                       </div>
-                                       <div class="a-service-cards_content-title">
-                                          <p>Ensure long-term stability of your Salesforce. Just choose a convenient package to anticipate and promptly resolve performance issues, minimize system downtimes, and improve user adoption.</p>
-                                       </div>
-                                    </div>
-                                    <a href="/services/salesforce/support" target="" class="a-service-cards_content-link-wrap" data-piwik-event="Editable: Wide-service-cards,click,link: Salesforce support and maintenance"></a>
-                                    <div class="a-service-cards_content-link btn-link-arrow  btn-link-arrow--right">check our salesforce support and maintenance services</div>
+                                    <a href="https://www.scnsoft.com/blog/postsurgery-mhealth-application-escaping-the-twilight-zone" target="" class="a-service-cards_content-link-wrap" data-piwik-event="Editable: Wide-service-cards,click,link: Postoperative care management"></a>
+                                    <div class="a-service-cards_content-link btn-link-arrow  btn-link-arrow--right">support postoperative recovery</div>
                                  </div>
                               </div>
                            </div>
-                           <div class="pimcore_area_solution-types pimcore_area_content">
-                              <section class="a-solution-types waypoint  white">
-                                 <div class="container">
-                                    <h2 class="a-section__title h2 step-up 1 ">
-                                       SALESFORCE PRODUCTS WE work with
-                                    </h2>
-                                    <p class="a-section__description step-up">
-                                       Adisols’s team is qualified to deliver Salesforce flagship products, including:
-                                    </p>
-                                    <div class="a-solution-types__list step-up">
-                                       <a data-piwik-event="Editable: Solution Types Editable,click,Sales Cloud" class="a-solution-types__link a-card step-up" href="https://www.scnsoft.com/salesforce/sales-cloud" target="">
-                                       Sales Cloud
-                                       <i class="icon-font icon-s-arrow"></i>
-                                       </a>
-                                       <a data-piwik-event="Editable: Solution Types Editable,click,Service Cloud" class="a-solution-types__link a-card step-up" href="https://www.scnsoft.com/salesforce/service-cloud" target="">
-                                       Service Cloud
-                                       <i class="icon-font icon-s-arrow"></i>
-                                       </a>
-                                       <a data-piwik-event="Editable: Solution Types Editable,click,Marketing Cloud" class="a-solution-types__link a-card step-up" href="https://www.scnsoft.com/salesforce/marketing-cloud" target="">
-                                       Marketing Cloud
-                                       <i class="icon-font icon-s-arrow"></i>
-                                       </a>
-                                       <a data-piwik-event="Editable: Solution Types Editable,click,Community Cloud" class="a-solution-types__link a-card step-up">
-                                       Community Cloud
-                                       </a>
-                                       <a data-piwik-event="Editable: Solution Types Editable,click,Financial Services Cloud" class="a-solution-types__link a-card step-up">
-                                       Financial Services Cloud
-                                       </a>
-                                       <a data-piwik-event="Editable: Solution Types Editable,click,Nonprofit Cloud" class="a-solution-types__link a-card step-up">
-                                       Nonprofit Cloud
-                                       </a>
-                                       <a data-piwik-event="Editable: Solution Types Editable,click,Salesforce CPQ" class="a-solution-types__link a-card step-up">
-                                       Salesforce CPQ
-                                       </a>
-                                       <a data-piwik-event="Editable: Solution Types Editable,click,Salesforce Chatter" class="a-solution-types__link a-card step-up">
-                                       Salesforce Chatter
-                                       </a>
+                           <div class="pimcore_area_wysiwyg pimcore_area_content">
+                              <section class="a-wysiwyg ">
+                                 <h2>Consulting Services That Answer the Need&nbsp;</h2>
+                                 <p>With the universal approach to healthcare professionals and patients across different organizations, packaged solutions may fail to support your unique processes. We offer convenient custom-made software aligned with your goals and destined to help end users perform their tasks.</p>
+                                 <p>In cooperation with the stakeholders, Adisols’s tech specialists will discuss your needs and requirements to implement the right solution automating, optimizing and streamlining the organization’s processes.</p>
+                              </section>
+                           </div>
+                           <div class="pimcore_area_wide-service-cards pimcore_area_content">
+                              <div class="a-service-cards">
+                                 <div class="a-service-cards_logo">
+                                    <p><img alt="Medical IT consulting" class="lazyload" data-src="blue-icons-on-grey-background/medical_it_consulting.svg" src="blue-icons-on-grey-background/medical_it_consulting.svg" style="height:100px; width:100px" /></p>
+                                 </div>
+                                 <div class="a-service-cards_content">
+                                    <div>
+                                       <div class="a-service-cards_content-header">
+                                          Medical IT consulting
+                                       </div>
+                                       <div class="a-service-cards_content-title">
+                                          <p>We continuously bring together the latest trends from clinical and technological realms in our practice to improve performance of our medical clients. Whether your business concerns are about workflows, care quality, patient engagement and satisfaction, utilization or financials, we can transform the challenge into your forte. Our healthcare technology consulting services are powered by a cross-functional team of healthcare and IT experts, business analysts and engineers – all ready to handle any request or idea.</p>
+                                       </div>
                                     </div>
                                  </div>
-                              </section>
+                              </div>
+                              <div class="a-service-cards">
+                                 <div class="a-service-cards_logo">
+                                    <p><img alt="Custom healthcare software development" class="lazyload" data-src="blue-icons-on-grey-background/custom_sw.svg" src="blue-icons-on-grey-background/custom_sw.svg" style="height:100px; width:100px" /></p>
+                                 </div>
+                                 <div class="a-service-cards_content">
+                                    <div>
+                                       <div class="a-service-cards_content-header">
+                                          Custom healthcare software development
+                                       </div>
+                                       <div class="a-service-cards_content-title">
+                                          <p>As one size never fits all, we create an application from scratch to cover your expectations to the fullest. Based on the emerging industry standards, we research and explore end users’ needs to ensure exceptional convenience, functionality and aesthetics.&nbsp;</p>
+                                       </div>
+                                    </div>
+                                    <a href="https://www.scnsoft.com/healthcare/software-development" target="" class="a-service-cards_content-link-wrap" data-piwik-event="Editable: Wide-service-cards,click,link: Custom healthcare software development"></a>
+                                    <div class="a-service-cards_content-link btn-link-arrow  btn-link-arrow--right">benefit from custom healthcare software</div>
+                                 </div>
+                              </div>
+                              <div class="a-service-cards">
+                                 <div class="a-service-cards_logo">
+                                    <p><img alt="Mobile applications for doctors and nurses" class="lazyload" data-src="blue-icons-on-grey-background/mobile_apps_for_doctors.svg" src="blue-icons-on-grey-background/mobile_apps_for_doctors.svg" style="height:100px; width:100px" /></p>
+                                 </div>
+                                 <div class="a-service-cards_content">
+                                    <div>
+                                       <div class="a-service-cards_content-header">
+                                          Mobile applications for doctors and nurses
+                                       </div>
+                                       <div class="a-service-cards_content-title">
+                                          <p>Opt in for convenient task-driven solutions that automate the daily routine and simplify examination and treatment for surgeons, physicians and nurses. Enable care coordination, identify workflow hiccups and empower strategic insights to advance your hospital or practice management.&nbsp;</p>
+                                       </div>
+                                    </div>
+                                    <a href="https://www.scnsoft.com/healthcare/mobile" target="" class="a-service-cards_content-link-wrap" data-piwik-event="Editable: Wide-service-cards,click,link: Mobile applications for doctors and nurses"></a>
+                                    <div class="a-service-cards_content-link btn-link-arrow  btn-link-arrow--right">improve clinical staff efficiency</div>
+                                 </div>
+                              </div>
+                              <div class="a-service-cards">
+                                 <div class="a-service-cards_logo">
+                                    <p><img alt="Mobile applications for patients" class="lazyload" data-src="blue-icons-on-grey-background/mobile_apps_for_patients.svg" src="blue-icons-on-grey-background/mobile_apps_for_patients.svg" style="height:100px; width:100px" /></p>
+                                 </div>
+                                 <div class="a-service-cards_content">
+                                    <div>
+                                       <div class="a-service-cards_content-header">
+                                          Mobile applications for patients
+                                       </div>
+                                       <div class="a-service-cards_content-title">
+                                          <p>Connect with your patients in a personalized way. Offer them tools to schedule appointments, to track health, lab results and medications and to share this data for managing a particular condition. Improve remote care delivery, health outcomes and patient engagement.&nbsp;</p>
+                                       </div>
+                                    </div>
+                                    <a href="https://www.scnsoft.com/healthcare/mobile/patient-apps" target="" class="a-service-cards_content-link-wrap" data-piwik-event="Editable: Wide-service-cards,click,link: Mobile applications for patients"></a>
+                                    <div class="a-service-cards_content-link btn-link-arrow  btn-link-arrow--right">build a patient app</div>
+                                 </div>
+                              </div>
+                              <div class="a-service-cards">
+                                 <div class="a-service-cards_logo">
+                                    <p><img alt="Maintenance" class="lazyload" data-src="blue-icons-on-grey-background/support.svg" src="blue-icons-on-grey-background/support.svg" style="height:100px; width:100px" /></p>
+                                 </div>
+                                 <div class="a-service-cards_content">
+                                    <div>
+                                       <div class="a-service-cards_content-header">
+                                          Maintenance
+                                       </div>
+                                       <div class="a-service-cards_content-title">
+                                          <p>We will also help if your in-house software needs any improvements, be it new functionality, usability, performance, interoperability, scalability or bug fixing. We will assign a team to continuously maintain, upgrade and update your application.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
                            </div>
                            <div class="pimcore_area_button-text pimcore_area_content">
                               <section class="a-card a-button-text">
                                  <div class="row">
                                     <div class="col-12 col-lg-10 offset-lg-1 col-xxl-12">
                                        <div class="a-button-text__title">
-                                          Get in touch
+                                          Uplifting Care Delivery: Start with a Proof-of-Concept
                                        </div>
                                     </div>
                                  </div>
                                  <div class="row">
                                     <div class="col-12 col-md-8 col-lg-7 offset-lg-1 col-xxl-7">
                                        <div class="a-button-text__description">
-                                          Ready to turn your Salesforce&nbsp;solution into an efficient facilitator of long-term relationships with customers? Contact our consultants to decide what Salesforce&nbsp;services you need.
+                                          Whether you need to integrate more patient-centered care techniques, benefit from big data analytics or ensure information security in your practice, our specialists in healthcare and IT will back you up. Upon discussing your ideas and requirements, we will deliver a proof-of-concept. Please see below our hallmark projects for the healthcare industry. 
                                        </div>
                                     </div>
-                                    <div class="col-12 col-md-4 col-lg-3 col-xxl-3">
-                                       <div class="a-button-text__link">
-                                          <a class="btn-default" href="/contact-us" data-module-init="{&quot;buttonLiveChat&quot;:{ &quot;text&quot;: &quot;Contact us&quot;, &quot;editable&quot;: &quot;Button-Text&quot;}}">Contact us</a>
-                                       </div>
-                                    </div>
+                                    
                                  </div>
                               </section>
                            </div>
                            
                         </div>
                      </div>
-                     <script type="text/javascript">
-                        (function () {
-                          var snippets = document.querySelector('.page-menu__snippets');
-                          var mainContent = document.querySelector('.p-simple__content');
-                          var sidebar = document.querySelector('.page-menu__sub');
-                        
-                          if (snippets && mainContent && sidebar) {
-                            function moveSnippets() {
-                              if (window.innerWidth < 1200) {
-                                mainContent.parentNode.insertBefore(snippets, mainContent.nextSibling);
-                             } else {
-                                sidebar.parentNode.insertBefore(snippets, sidebar.nextSibling);
-                             }
-                          }
-                        
-                          moveSnippets();
-                        
-                          window.addEventListener("resize", function () {
-                           moveSnippets();
-                        });
-                        }
-                        })();
-                     </script> 
+                    
                   </div>
                </div>
             </div>
@@ -986,10 +923,6 @@
          <!--[if IE]>
          <!-- ~zone: footer -->
          <![endif]-->
-      </div>
-      <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="27f48aa1e23db51624dd127e-|49" defer=""></script>
-   </body>
-</html>
-<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="27f48aa1e23db51624dd127e-|49" defer=""></script>
+      </div>      
 </body>
 </html>

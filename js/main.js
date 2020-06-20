@@ -51,7 +51,6 @@ require.config({
         numbersCounter: "modules/numbers.counter",
         serviceVariations: "modules/service.variations",
         timelineDisplay: "modules/timeline.display",
-        buttonLiveChat: "modules/button.live.chat",
         contactSlider: "modules/contact.slider",
         testimonialsConfigurable: "modules/testimonials.configurable",
         additionalInformation: "modules/additional.information",
