@@ -11645,7 +11645,7 @@ span+.page-menu__toggle:before {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2)
 }
 
-.home-page .a-solution-types {
+.home-page .a-solution-types, .p-simple .a-solution-types {
     padding: 50px 0 20px;
     background-color: #0b3155
 }
@@ -11657,7 +11657,10 @@ span+.page-menu__toggle:before {
 
 .home-page .a-solution-types,
 .home-page .a-solution-types .a-section__description,
-.home-page .a-solution-types .h2 {
+.home-page .a-solution-types .h2,
+.p-simple .a-solution-types,
+.p-simple .a-solution-types .a-section__description,
+.p-simple .a-solution-types .h2 {
     color: #fff
 }
 
@@ -17263,7 +17266,7 @@ a .p-blog-service__title span {
 }
 
 .a-slider-content .bx-pager {
-    position: /static
+    position: static
 }
 
 .a-slider-content .bx-viewport {
@@ -19825,6 +19828,7 @@ a .p-blog-service__title span {
         -ms-flex: 0 0 auto;
         flex: 0 0 auto
     }
+    .a-variations__item-four,
     .a-variations__item-three,
     .a-variations__item-two {
         -ms-flex-preferred-size: calc((100% - 32px)/2);
@@ -19844,9 +19848,38 @@ a .p-blog-service__title span {
         flex-basis: calc((100% - 64px)/3);
         max-width: calc((100% - 64.1px)/3)
     }
-    .a-variations__item-three:nth-of-type(2n) {
-        margin: 16px 32px
+    .a-variations__item-four {
+        -ms-flex-preferred-size: calc((100% - 96px)/4);
+        flex-basis: calc((100% - 96px)/4);
+        max-width: calc((100% - 96px)/4)
     }
+    .a-variations__item-three:nth-of-type(2n) {
+        margin: 16px 32px;
+    }
+    .a-variations__item-four:nth-child(2) {
+        margin: 16px 0 16px 32px;
+    }
+    .a-variations__item-four:nth-child(3) {
+        margin: 16px 32px;
+    }
+    
+}
+
+.a-variations__items .pricing p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.a-variations__items .pricing p span{
+    font-size: 12px;
+    display: block;
+    font-weight: normal;
+    line-height: normal;
+}
+.a-variations__items .heading-1{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .a-timeline {
