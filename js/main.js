@@ -44,6 +44,8 @@ require.config({
         textareaValidate: "modules/textarea.validate",
         serviceCardsAccord: "modules/service.cards.accord",
         serviceCardsHide: "modules/service.cards.hide",
+	groupingCardsAccord: "modules/grouping.cards.accord",
+	groupingCardsHide: "modules/grouping.cards.hide",
         expandBlock: "modules/expand.block",
         collapsibleTextAccord: "modules/collapsible.text.accord",
         collapsibleTextHide: "modules/collapsible.text.hide",
@@ -57,7 +59,11 @@ require.config({
         flippingCard: "modules/flipping.card",
         downloadsFiles: "modules/downloads.files",
         sliderWithContent: "modules/slider.with.content",
-        selectionListForm: "modules/selection.list.form"
+        selectionListForm: "modules/selection.list.form",
+	core: "formstone/js/core",
+	mediaquery: "formstone/js/mediaquery",
+	swap: "formstone/js/swap",
+	tabs: "formstone/js/tabs",
     },
     shim: {
         initModules: ["jquery", "domReady"],
