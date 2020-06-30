@@ -6,6 +6,7 @@
       <title>ADISOLS - Salesforce Consulting, Support, Staffing</title>
       <link href="css/simple-content-page.css" rel="stylesheet">
       <link href="css/common.css" type="text/css" rel="stylesheet">
+      <link href="formstone/css/tabs.css" type="text/css" rel="stylesheet">
       <script type="text/javascript" data-main="js/main.js" src="js/require.js"></script>
    </head>
    <body>
@@ -94,7 +95,7 @@
                                           <div class="sub-columns__columns">
                                              <div class="sub-columns__column">
                                                 <div class="menu-categories__title--level-2
-                                                   active">
+                                                   ">
                                                    <a href="salesforce.html">
                                                    <span class="menu-title">Salesforce</span>
                                                    </a>
@@ -107,7 +108,7 @@
                                                 </div>
                                              </div>
                                              <div class="sub-columns__column">
-                                                <div class="menu-categories__title--level-2
+                                                <div class="menu-categories__title--level-2 active
                                                    ">
                                                    <a href="middleware.html">
                                                    <span class="menu-title">Middleware</span>
@@ -257,7 +258,7 @@
                               <label for="toggle-menu" class="sr-only">Toggle site menu</label>
                               <div class="page-menu__current">
                                  <div class="page-menu__current-link">
-                                    <span class="page-menu__current-title" data-nosnippet="">Salesforce </span>
+                                    <span class="page-menu__current-title" data-nosnippet="">Middleware </span>
                                  </div>
                               </div>
                               <div class="page-menu__toggle"></div>
@@ -273,123 +274,25 @@
                                                 <div class="page-menu__sub">
                                                    <div class="page-menu__current">
                                                       <div class="page-menu__current-link">
-                                                         <span class="page-menu__current-title" data-nosnippet="">Salesforce </span>
+                                                         <span class="page-menu__current-title" data-nosnippet="">Middleware </span>
                                                       </div>
                                                    </div>
                                                    <div class="page-menu__toggle"></div>
                                                    <ul>
-                                                      <li class="page-menu__item ">
+                                                      <li class="page-menu__item">
                                                          <div class="page-menu__item-link">
-                                                            <a href="sales-cloud.html" title="Sales Cloud">
-                                                            <span data-nosnippet="">Sales Cloud</span>
+                                                            <a href="middleware.html" title="Mulesoft">
+                                                            <span data-nosnippet="">Mulesoft</span>
                                                             </a>
                                                          </div>
                                                       </li>
-                                                      <li class="page-menu__item ">
+                                                      <li class="page-menu__item active">
                                                          <div class="page-menu__item-link">
-                                                            <a href="service-cloud.html" title="Service cloud">
-                                                            <span data-nosnippet="">Service cloud</span>
+                                                            <a href="tibco.html" title="Tibco">
+                                                            <span data-nosnippet="">Tibco</span>
                                                             </a>
                                                          </div>
-                                                      </li>
-                                                      <li class="page-menu__item ">
-                                                         <div class="page-menu__item-link">
-                                                            <a href="marketing.html" title="Salesforce Demos" data-piwik-event="Left menu,click,Salesforce Demos">
-                                                            <span data-nosnippet="">Marketing</span>
-                                                            </a>
-                                                         </div>
-                                                         <label for="submenu-toggle" class="sr-only">Toggle submenu</label>
-                                                         <input type="checkbox" id="submenu-toggle" name="menu" class="page-menu__checkbox --sub
-                                                            " checked="" data-piwik-event="Left menu,click,Salesforce Demos">
-                                                         <button type="button" class="page-menu__toggle level-3"></button>
-                                                         <script type="text/javascript">
-                                                            require(['main'], function () {
-                                                              require([
-                                                                'jquery'
-                                                                ], function ($) {
-                                                                   var $elem = $('.page-menu__checkbox');
-                                                                   var parent = $('#sub5').closest('.page-menu__sub-items');
-                                                                   $(parent).siblings('#submenu-toggle').removeClass('unchecked');
-                                                            
-                                                                   $elem.change(function () {
-                                                                     var $submenu = $(this).siblings('.page-menu__sub-items');
-                                                            
-                                                                     if ($(this).hasClass('unchecked') && window.innerWidth >= 1200) {
-                                                                       this.checked = true;
-                                                                    }
-                                                            
-                                                                    if ($submenu) {
-                                                                       if (this.checked) {
-                                                                         $submenu.slideDown();
-                                                                      } else {
-                                                                         $submenu.slideUp();
-                                                                      }
-                                                                   }
-                                                            
-                                                                   $(this).removeClass('unchecked');
-                                                                });
-                                                                })
-                                                            });
-                                                         </script>
-                                                         <ul class="page-menu__sub-items">
-                                                            <li class="page-menu__item ">
-                                                               <div class="page-menu__item-link">
-                                                                  <a href="marketing-cloud.html" title="360° Customer Profile" data-piwik-event="Left menu,click,360° Customer Profile">
-                                                                  <span data-nosnippet="">Marketing Cloud</span>
-                                                                  </a>
-                                                               </div>
-                                                            </li>
-                                                            <li class="page-menu__item active">
-                                                               <div class="page-menu__item-link">
-                                                                  <a href="pardot.html" title="Marketing Cloud: Email Marketing" data-piwik-event="Left menu,click,Marketing Cloud: Email Marketing">
-                                                                  <span data-nosnippet="">Pardot</span>
-                                                                  </a>
-                                                               </div>
-                                                            </li>
-                                                         </ul>
-                                                      </li>
-                                                      <li class="page-menu__item ">
-                                                         <div class="page-menu__item-link">
-                                                            <a href="community.html" title="Salesforce Customization" data-piwik-event="Left menu,click,Salesforce Customization">
-                                                            <span data-nosnippet="">Community</span>
-                                                            </a>
-                                                         </div>
-                                                      </li>
-                                                      <li class="page-menu__item ">
-                                                         <div class="page-menu__item-link">
-                                                            <a href="financial-services-cloud.html" title="Salesforce App Development" data-piwik-event="Left menu,click,Salesforce App Development">
-                                                            <span data-nosnippet="">Financial services cloud</span>
-                                                            </a>
-                                                         </div>
-                                                      </li>
-                                                      <li class="page-menu__item ">
-                                                         <div class="page-menu__item-link">
-                                                            <a href="health-cloud.html" title="Salesforce Integration" data-piwik-event="Left menu,click,Salesforce Integration">
-                                                            <span data-nosnippet="">Health cloud</span>
-                                                            </a>
-                                                         </div>
-                                                      </li>
-                                                      <li class="page-menu__item ">
-                                                         <div class="page-menu__item-link">
-                                                            <a href="npsp.html" title="Salesforce Sales Cloud" data-piwik-event="Left menu,click,Salesforce Sales Cloud">
-                                                            <span data-nosnippet="">NPSP</span>
-                                                            </a>
-                                                         </div>
-                                                      </li>
-                                                      <li class="page-menu__item ">
-                                                         <div class="page-menu__item-link">
-                                                            <a href="salesforce-cpq.html" title="Salesforce Service Cloud" data-piwik-event="Left menu,click,Salesforce Service Cloud">
-                                                            <span data-nosnippet="">Salesforce CPQ</span>
-                                                            </a>
-                                                         </div>
-                                                      </li>
-                                                      <li class="page-menu__item ">
-                                                         <div class="page-menu__item-link">
-                                                            <a href="data.html" title="Salesforce Marketing Cloud" data-piwik-event="Left menu,click,Salesforce Marketing Cloud">
-                                                            <span data-nosnippet="">Data.com</span>
-                                                            </a>
-                                                         </div>
-                                                      </li>                                                      
+                                                      </li>                                                
                                                    </ul>
                                                 </div>
                                                 <div class="page-menu__snippets">
@@ -409,33 +312,6 @@
                               </div>
                            </div>
                         </div>
-                        <script type="text/javascript">
-                           require(['main'], function () {
-                               require([
-                                   'jquery'
-                               ], function ($) {
-                                   $( document ).ready(function() {
-                                       var $elemscroll = $('.page-menu__item.active').offset().top,
-                                           $elemheight = $(window).height(),
-                                           isEvent = false;
-                                       if ( !isEvent ) {
-                                           isEvent = true;
-                                           if (($elemscroll+100) >= $elemheight) {
-                                               if ($elemheight >= 650) {
-                                                   $('.simplebar-content-wrapper').animate({
-                                                       scrollTop: $elemscroll
-                                                   }, 1500);
-                                               } else {
-                                                   $('.simplebar-content-wrapper').animate({
-                                                       scrollTop: $elemscroll-200
-                                                   }, 1500);
-                                               }
-                                           }
-                                       }
-                                   })
-                               })
-                           });
-                        </script>
                         <!--[if IE]><!-- ~zone: sidebar --><!--[endif]---->
                      </div>
                      <div class="col-12 col-xl-9">
@@ -449,207 +325,65 @@
                               </li>
                               <li class="breadcrumbs__item" id="breadcrumb_2" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
                                  <i class="icon-s-slider-arrow breadcrumbs__icon"></i>
-                                 <a class="breadcrumbs__item-link" href="salesforce.html" itemtype="http://schema.org/Thing" itemprop="item" data-piwik-event="Breadcrumb menu,click,Salesforce">
-                                    <span class="breadcrumbs__title" itemprop="name">Pardot</span>
+                                 <a class="breadcrumbs__item-link" href="middleware.html" itemtype="http://schema.org/Thing" itemprop="item" data-piwik-event="Breadcrumb menu,click,Middleware">
+                                    <span class="breadcrumbs__title" itemprop="name">Tibco</span>
                                     <meta itemprop="position" content="2">
                                  </a>
                               </li>
                            </ul>
                         </div>
-                        <h1 class="p-simple__heading">
-                           Get the Most out of Pardot
-                        </h1>
-                        <p>Increase the efficiency and ROI of your marketing efforts.</p>
-                        <div class="row-gutter-2"></div>
-                        <div class="a-button-text__link text-left">
-                           <a class="btn-default" href="#">Get in touch</a>
-                        </div>
-                        <div class="row-gutter-4"></div>
                         <div class="p-simple__content">
-                           <div class="pimcore_area_numbers-text pimcore_area_content">
-                                 <div class="numbers-text-wrapper">
-                                    <div class="b-overview c-slider  waypoint" id="company_overviewareablock216" data-module-init='{"initWaypoints":{}}'>
-                                       <div class="step-up">
-                                          <div class="b-overview__list" data-slider="numbersText">
-                                             <li class="b-overview__item visible">
-                                                <div class="b-overview__item-amount">
-                                                   <span class="b-overview__item-amount-title">32%</span>
-                                                </div>
-                                                <div class="b-overview__item-label">Increase in Quality Leads</div>
-                                             </li>
-                                             <li class="b-overview__item visible">
-                                                <div class="b-overview__item-amount">
-                                                   <span class="b-overview__item-amount-title">34%</span>
-                                                </div>
-                                                <div class="b-overview__item-label">Increase in Sales Revenue</div>
-                                             </li>
-                                             <li class="b-overview__item visible">
-                                                <div class="b-overview__item-amount">
-                                                   <span class="b-overview__item-amount-title">20%</span>
-                                                </div>
-                                                <div class="b-overview__item-label">Increase in Sales Opportunities</div>
-                                             </li>                                         
-                                          </div>
-                                          <script type="text/javascript">
-                                             require(['main'], function () {
-                                                 require([
-                                                     'jquery',
-                                                     'bxSlider'
-                                                 ], function ($) {
-                                                     $('[data-slider="numbersText"]').each(function () {
-                                                         var $slider = $(this),
-                                                             options = new Array([
-                                                 {
-                                                 size: 0,
-                                                     props: {
-                                                         minSlides: 1,
-                                                         maxSlides: 1,
-                                                         pager: true,
-                                                         controls: false,
-                                                         adaptiveHeight: false,
-                                                         moveSlides: 1,
-                                                         slideWidth: 769,
-                                                         slideMargin: 16,
-                                                         touchEnabled: true,
-                                                         responsive: true
-                                                     }
-                                                 }
-                                             ]);
-                                             
-                                                         var defaultOptions = {
-                                                             maxSlides: 1,
-                                                             adaptiveHeight: true,
-                                                             preloadImages: 'visible',
-                                                             touchEnabled: true,
-                                                             oneToOneTouch: true,
-                                                             swipeThreshold: 100,
-                                                             pager: true,
-                                                             controls: true,
-                                                             infiniteLoop: true,
-                                                             onSliderResize: function () {
-                                                                 switchSlider();
-                                                             }
-                                                         };
-                                             
-                                                         var itDestroy = {
-                                                 point: 767
-                                             },
-                                                             constructedSlider = false, slides = $(this).children(), slidesNotEmpty = slides.filter(function () {return $.trim($(this).html());}).length;
-                                             
-                                                         switchSlider(slidesNotEmpty);
-                                             
-                                                         if (itDestroy) {
-                                                             $(window).on("resize", function () {
-                                                                 switchSlider(slidesNotEmpty);
-                                                             });
-                                                         }
-                                             
-                                                         $slider.find('img').one('load', function () {
-                                                             if ($slider.parent().height() < $slider.height()) {
-                                                                 $slider.parent().height($slider.height());
-                                                             }
-                                                         });
-                                             
-                                                         function switchSlider(length) {
-                                             
-                                                             if (!itDestroy || window.innerWidth <= itDestroy.point) {
-                                                                 constructedSlider = !constructedSlider.reloadSlider ? $slider.bxSlider(defaultOptions) : constructedSlider;
-                                             
-                                                                 if (length <= 1) {
-                                                                     constructedSlider.destroySlider();
-                                                                 } else {
-                                                                     var windowWidth = window.innerWidth,
-                                                                         newOptions = $.extend({}, defaultOptions);
-                                             
-                                                                     if (options.length) {
-                                                                         options[0].forEach(function (item) {
-                                                                             if (!isNaN(parseFloat(item.size)) && windowWidth >= parseFloat(item.size)) {
-                                                                                 newOptions = $.extend(newOptions, item.props);
-                                                                             }
-                                                                         });
-                                             
-                                             
-                                                                         if (constructedSlider) {
-                                                                             constructedSlider.reloadSlider(newOptions);
-                                                                         }
-                                             
-                                                                     }
-                                                                 }
-                                             
-                                             
-                                                             } else if (constructedSlider) {
-                                                                 constructedSlider.destroySlider();
-                                                                 constructedSlider = false;
-                                                             }
-                                                         }
-                                                     });
-                                                 });
-                                             });
-                                          </script> 
-                                       </div>
-                                    </div>
-                                 </div>
+
+                           <div class="row">
+                              <div class="col-12 col-md-6">
+                                 <h2>Launch Your Salesforce Community Cloud Experience</h2>
+                                 <p>Engage employees, customers, and partners with beautiful, on-brand portals and forum creation sites.</p>
+                                 <div class="a-button-text__link text-left">
+                                    <a class="btn-default" href="#">Consult Us</a>
+                                 </div>         
+                              </div>
+                              <div class="col-12 col-md-6">
+                                 <img src="services/salesforce-consulting-partner-Salesforce-homepage-image-1.23.20-2.png" class="img-responsive">
+                              </div>
                            </div>
+                           <div class="row-gutter-6"></div>
                            <div class="pimcore_area_button-text pimcore_area_content">
                               <div class="row equalize-row-1">
-                                 <div class="col-12 col-md-4">
-                                    <div class="box-shadow shadow-container" style="padding: 30px">
-                                       <div class="child-1">
-                                          <div class="a-button-text__title">
-                                             Implementation Services
-                                          </div>
-                                          <p>Implementing Salesforce Billing requires sophisticated expertise and a thorough knowledge of quote-to-cash processes. Adisols is one of a handful of approved implementation partners, so you can trust us to get Salesforce Billing up and running right the first time.</p>
-                                       </div>
-                                       <div class="a-button-text__link text-left child-2">
-                                          <a class="btn-default" href="#">Learn more</a>
-                                       </div>
-                                    </div>                                    
-                                 </div> 
-                                 <div class="col-12 col-md-4">
-                                    <div class="box-shadow shadow-container" style="padding: 30px">
-                                       <div class="child-1">
-                                          <div class="a-button-text__title">
-                                             Mananged Services
-                                          </div>
-                                          <p>In today’s highly competitive marketplace, the top businesses are constantly evolving. But as your company adapts and changes, who’s maintaining your Pardot instance? See how outsourcing to Adisols can save your organization time and resources.</p>
-                                       </div>
-                                       <div class="a-button-text__link text-left child-2">
-                                          <a class="btn-default" href="#">Learn more</a>
-                                       </div>
-                                    </div>                                    
-                                 </div> 
-                                 <div class="col-12 col-md-4">
-                                    <div class="box-shadow shadow-container" style="padding: 30px">
-                                       <div class="child-1">
-                                          <div class="a-button-text__title">
-                                             Custom Configuration
-                                          </div>
-                                          <p>One of the greatest strengths of the Salesforce platform is the ability to configure it for your unique business needs. The certified developers and consultants at Adisols can help automate tedious manual processes, integrate with various platforms and more.</p>
-                                       </div>
-                                       <div class="a-button-text__link text-left child-2">
-                                          <a class="btn-default" href="#">Learn more</a>
-                                       </div>
-                                    </div>                                    
-                                 </div>                                                        
-                              </div>                             
-                           </div>
-                           <div class="row-gutter-4"></div>
-                           <div class="pimcore_area_content">
-                              <div class="row">
                                  <div class="col-12 col-md-6">
-                                    <img src="services/boomerang-tile-1-1.jpg" class="img-responsive">
-                                    <div class="row-gutter-3"></div>
+                                    <div class="box-shadow shadow-container" style="padding: 30px">
+                                       <div class="a-button-text__title">
+                                          Build Relationships
+                                       </div>
+                                       <p>Online forums built with Community Cloud allow your customers to guide their own experience and find the information they need. This helps your customers to trust your transparency, thus building better relationships.</p>
+                                    </div>                                    
                                  </div>
                                  <div class="col-12 col-md-6">
-                                    <div class="a-button-text__title">
-                                       Boomerang Commerce: Case Study
-                                    </div>
-                                    <p>Moving marketing automation from Marketo to Pardot.</p>
-                                    <div class="a-button-text__link text-left">
-                                       <a class="btn-default" href="#">Read More</a>
-                                    </div>         
+                                    <div class="box-shadow shadow-container" style="padding: 30px">
+                                       <div class="a-button-text__title">
+                                          Save Money
+                                       </div>
+                                       <p>Providing excellent customer and partner support is important, but it’s no easy task; it comes at a cost. The amount of time and resources you expend could be saved if customers could help themselves using an online community.</p> 
+                                    </section>       
                                  </div>                              
-                              </div>
+                              </div> 
+                              <div class="row equalize-row-1">
+                                 <div class="col-12 col-md-6">
+                                    <div class="box-shadow shadow-container" style="padding: 30px">
+                                       <div class="a-button-text__title">
+                                          Improve Products
+                                       </div>
+                                       <p>When you use your communities properly, you can collect data from them that will reveal the most common sources of customer, partner, and employee satisfaction (and dissatisfaction) with new product features.</p>
+                                    </div>                                    
+                                 </div>
+                                 <div class="col-12 col-md-6">
+                                    <div class="box-shadow shadow-container" style="padding: 30px">
+                                       <div class="a-button-text__title">
+                                          Create and Customize
+                                       </div>
+                                       <p>Community Cloud makes it easy for you to brand your own experience. Start with prebuilt themes and add your own branding or fully customize every pixel.</p> 
+                                    </section>       
+                                 </div>                              
+                              </div>                             
                            </div>
                            <script type="text/javascript">
                                  require(['main'], function () {
@@ -660,14 +394,90 @@
                                          'equalize',
                                      ], function ($) {
                                        $(".equalize-row-1").equalize({
-                                          target: [
-                                             ".child-1",
-                                             ".child-2"
-                                          ]
+                                          target: ".shadow-container"
                                        });
                                     });
                                  });               
-                           </script>                           
+                           </script>
+                           <div class="row-gutter-3"></div> 
+                           <div class="pimcore_area_button-text pimcore_area_content">
+                              <div class="row">
+                                 <div class="col-12 col-md-6">
+                                    <div class="a-button-text__title">
+                                       What Is Salesforce Community Cloud?
+                                    </div>
+                                    <p>Salesforce Community Cloud is a cloud-based platform designed to connect and facilitate communication among an organization’s employees, partners, and customers. The tool enables companies to create branded online communities and more efficiently communicate with both internal and external parties. And, since it’s a Salesforce product, Community Cloud offers CRM data integration (integrate opportunities, leads, etc.).</p>
+                                    <div class="row-gutter-3"></div>       
+                                 </div>
+                                 <div class="col-12 col-md-6">
+                                    <img src="services/Salesforce-Page.png" class="img-responsive">
+                                 </div>                              
+                              </div>
+                              <div class="row">
+                                 <div class="col-12">
+                                    <p><strong>You can use Communities to:</strong></p>
+                                    <ul>
+                                       <li>Drive more sales by connecting employees with external channel partners</li>
+                                       <li>Deliver top-notch customer service to customers seeking answers</li>
+                                       <li>Manage social listening, content, engagement, and workflow in one place</li>
+                                    </ul>
+                                    <p>Abstrakt Marketing Group empowers businesses of all sizes to create custom CRM solutions and online communities that are on-brand and optimized for all devices. The idea of building out a customized online community may sound costly and complex, but we make it easy. As your professional Salesforce Consulting partner, our experts know how to set up communities with the exact functionality your specific company requires all at a budget-friendly cost.</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="row-gutter-3"></div>
+                           <div class="pimcore_area_button-text pimcore_area_content">
+                              <div class="a-button-text__title">
+                                 Keep Everyone Connected in Your Company Portal Software Using Community Cloud
+                              </div>
+                              <p>No matter what kind of experience you want to create, we can build and launch your fully customized experience with Community Cloud forum software by Salesforce. We’ve built high-functioning online communities for companies of all types and sizes. Not only do we specialize in custom CRM development, but we show you why you should use Communities. We help you understand the benefits and show you why you should use Community Cloud.</p>
+                           </div>
+
+                           <div class="pimcore_area_button-text pimcore_area_content">
+                              <nav class="tabs_container">
+                                 <a href="#tab-1" class="tabs" data-tabs-group="tab_group" data-tabs-active="true">Brand Your Experience</a>
+                                 <a href="#tab-2" class="tabs" data-tabs-group="tab_group">Countless Features</a>
+                                 <a href="#tab-3" class="tabs" data-tabs-group="tab_group">Training & Support</a>
+                                 <a href="#tab-4" class="tabs" data-tabs-group="tab_group">Reports & Dashboards</a>
+                              </nav>
+                              <div class="tab_content" id="tab-1">
+                                 <p>Have people automatically follow up with first time guests, anniversaries, and any other situation you can imagine.</p>
+                                 <div class="a-button-text__link">
+                                    <a class="btn-default" href="#">More Details</a>
+                                 </div>
+                              </div>
+                              <div class="tab_content" id="tab-2">
+                                 <p>Check people in on any device! Once the kids are checked in, volunteers can text the parents if needed!</p>
+                                 <div class="a-button-text__link">
+                                    <a class="btn-default" href="#">More Details</a>
+                                 </div>
+                              </div>
+                              <div class="tab_content" id="tab-3">
+                                 <p>Manage your service plans, song libraries, serving rotations and schedules from any device.</p>
+                                 <div class="a-button-text__link">
+                                    <a class="btn-default" href="#">More Details</a>
+                                 </div>
+                              </div>
+                              <div class="tab_content" id="tab-4">
+                                 <p>Make life easy for your people with our giving software that allows you to give from any device without having to login!</p>
+                                 <div class="a-button-text__link">
+                                    <a class="btn-default" href="#">More Details</a>
+                                 </div>
+                              </div>                              
+                              <script type="text/javascript">
+                                 require(['main'], function () {
+                                     require([
+                                         'jquery',
+                                         'core',
+                                         'mediaquery',
+                                         'swap',
+                                         'tabs'
+                                     ], function ($) {
+                                         $(".tabs").tabs();
+                                    });
+                                 });               
+                              </script> 
+                           </div>
                         </div>
                      </div>
                      <script type="text/javascript">
