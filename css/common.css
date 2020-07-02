@@ -23346,6 +23346,14 @@ ul:not(.x-list-plain) li.a-timeline__item.active-slide {
     text-align: center;
     float: left;
 }
+.tabs_container.column-4 .tabs {
+    width: calc(100% / 4);
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    padding: 15px;
+
+}
 .tabs_container .tabs.fs-tabs-active, .tabs_container .tabs:hover, .fs-tabs-tab_mobile:hover, .fs-tabs-tab_mobile.fs-tabs-active {
     border-bottom: 4px solid #005eb8 !important;
 }

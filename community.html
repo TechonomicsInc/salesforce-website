@@ -95,7 +95,7 @@
                                           <div class="sub-columns__columns">
                                              <div class="sub-columns__column">
                                                 <div class="menu-categories__title--level-2
-                                                   ">
+                                                  active ">
                                                    <a href="salesforce.html">
                                                    <span class="menu-title">Salesforce</span>
                                                    </a>
@@ -108,7 +108,7 @@
                                                 </div>
                                              </div>
                                              <div class="sub-columns__column">
-                                                <div class="menu-categories__title--level-2 active
+                                                <div class="menu-categories__title--level-2 
                                                    ">
                                                    <a href="middleware.html">
                                                    <span class="menu-title">Middleware</span>
@@ -258,7 +258,7 @@
                               <label for="toggle-menu" class="sr-only">Toggle site menu</label>
                               <div class="page-menu__current">
                                  <div class="page-menu__current-link">
-                                    <span class="page-menu__current-title" data-nosnippet="">Middleware </span>
+                                    <span class="page-menu__current-title" data-nosnippet="">Salesforce </span>
                                  </div>
                               </div>
                               <div class="page-menu__toggle"></div>
@@ -274,25 +274,123 @@
                                                 <div class="page-menu__sub">
                                                    <div class="page-menu__current">
                                                       <div class="page-menu__current-link">
-                                                         <span class="page-menu__current-title" data-nosnippet="">Middleware </span>
+                                                         <span class="page-menu__current-title" data-nosnippet="">Salesforce </span>
                                                       </div>
                                                    </div>
                                                    <div class="page-menu__toggle"></div>
                                                    <ul>
-                                                      <li class="page-menu__item">
+                                                      <li class="page-menu__item ">
                                                          <div class="page-menu__item-link">
-                                                            <a href="middleware.html" title="Mulesoft">
-                                                            <span data-nosnippet="">Mulesoft</span>
+                                                            <a href="sales-cloud.html" title="Sales Cloud">
+                                                            <span data-nosnippet="">Sales Cloud</span>
                                                             </a>
                                                          </div>
                                                       </li>
-                                                      <li class="page-menu__item active">
+                                                      <li class="page-menu__item ">
                                                          <div class="page-menu__item-link">
-                                                            <a href="tibco.html" title="Tibco">
-                                                            <span data-nosnippet="">Tibco</span>
+                                                            <a href="service-cloud.html" title="Service cloud">
+                                                            <span data-nosnippet="">Service cloud</span>
                                                             </a>
                                                          </div>
-                                                      </li>                                                
+                                                      </li>
+                                                      <li class="page-menu__item ">
+                                                         <div class="page-menu__item-link">
+                                                            <a href="marketing.html" title="Salesforce Demos" data-piwik-event="Left menu,click,Salesforce Demos">
+                                                            <span data-nosnippet="">Marketing</span>
+                                                            </a>
+                                                         </div>
+                                                         <label for="submenu-toggle" class="sr-only">Toggle submenu</label>
+                                                         <input type="checkbox" id="submenu-toggle" name="menu" class="page-menu__checkbox --sub
+                                                            " checked="" data-piwik-event="Left menu,click,Salesforce Demos">
+                                                         <button type="button" class="page-menu__toggle level-3"></button>
+                                                         <script type="text/javascript">
+                                                            require(['main'], function () {
+                                                              require([
+                                                                'jquery'
+                                                                ], function ($) {
+                                                                   var $elem = $('.page-menu__checkbox');
+                                                                   var parent = $('#sub5').closest('.page-menu__sub-items');
+                                                                   $(parent).siblings('#submenu-toggle').removeClass('unchecked');
+                                                            
+                                                                   $elem.change(function () {
+                                                                     var $submenu = $(this).siblings('.page-menu__sub-items');
+                                                            
+                                                                     if ($(this).hasClass('unchecked') && window.innerWidth >= 1200) {
+                                                                       this.checked = true;
+                                                                    }
+                                                            
+                                                                    if ($submenu) {
+                                                                       if (this.checked) {
+                                                                         $submenu.slideDown();
+                                                                      } else {
+                                                                         $submenu.slideUp();
+                                                                      }
+                                                                   }
+                                                            
+                                                                   $(this).removeClass('unchecked');
+                                                                });
+                                                                })
+                                                            });
+                                                         </script>
+                                                         <ul class="page-menu__sub-items">
+                                                            <li class="page-menu__item ">
+                                                               <div class="page-menu__item-link">
+                                                                  <a href="marketing-cloud.html" title="360° Customer Profile" data-piwik-event="Left menu,click,360° Customer Profile">
+                                                                  <span data-nosnippet="">Marketing Cloud</span>
+                                                                  </a>
+                                                               </div>
+                                                            </li>
+                                                            <li class="page-menu__item ">
+                                                               <div class="page-menu__item-link">
+                                                                  <a href="pardot.html" title="Marketing Cloud: Email Marketing" data-piwik-event="Left menu,click,Marketing Cloud: Email Marketing">
+                                                                  <span data-nosnippet="">Pardot</span>
+                                                                  </a>
+                                                               </div>
+                                                            </li>
+                                                         </ul>
+                                                      </li>
+                                                      <li class="page-menu__item active">
+                                                         <div class="page-menu__item-link">
+                                                            <a href="community.html" title="Salesforce Customization" data-piwik-event="Left menu,click,Salesforce Customization">
+                                                            <span data-nosnippet="">Community</span>
+                                                            </a>
+                                                         </div>
+                                                      </li>
+                                                      <li class="page-menu__item ">
+                                                         <div class="page-menu__item-link">
+                                                            <a href="financial-services-cloud.html" title="Salesforce App Development" data-piwik-event="Left menu,click,Salesforce App Development">
+                                                            <span data-nosnippet="">Financial services cloud</span>
+                                                            </a>
+                                                         </div>
+                                                      </li>
+                                                      <li class="page-menu__item ">
+                                                         <div class="page-menu__item-link">
+                                                            <a href="health-cloud.html" title="Salesforce Integration" data-piwik-event="Left menu,click,Salesforce Integration">
+                                                            <span data-nosnippet="">Health cloud</span>
+                                                            </a>
+                                                         </div>
+                                                      </li>
+                                                      <li class="page-menu__item ">
+                                                         <div class="page-menu__item-link">
+                                                            <a href="npsp.html" title="Salesforce Sales Cloud" data-piwik-event="Left menu,click,Salesforce Sales Cloud">
+                                                            <span data-nosnippet="">NPSP</span>
+                                                            </a>
+                                                         </div>
+                                                      </li>
+                                                      <li class="page-menu__item ">
+                                                         <div class="page-menu__item-link">
+                                                            <a href="salesforce-cpq.html" title="Salesforce Service Cloud" data-piwik-event="Left menu,click,Salesforce Service Cloud">
+                                                            <span data-nosnippet="">Salesforce CPQ</span>
+                                                            </a>
+                                                         </div>
+                                                      </li>
+                                                      <li class="page-menu__item ">
+                                                         <div class="page-menu__item-link">
+                                                            <a href="data.html" title="Salesforce Marketing Cloud" data-piwik-event="Left menu,click,Salesforce Marketing Cloud">
+                                                            <span data-nosnippet="">Data.com</span>
+                                                            </a>
+                                                         </div>
+                                                      </li>                                                      
                                                    </ul>
                                                 </div>
                                                 <div class="page-menu__snippets">
@@ -325,8 +423,8 @@
                               </li>
                               <li class="breadcrumbs__item" id="breadcrumb_2" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
                                  <i class="icon-s-slider-arrow breadcrumbs__icon"></i>
-                                 <a class="breadcrumbs__item-link" href="middleware.html" itemtype="http://schema.org/Thing" itemprop="item" data-piwik-event="Breadcrumb menu,click,Middleware">
-                                    <span class="breadcrumbs__title" itemprop="name">Tibco</span>
+                                 <a class="breadcrumbs__item-link" href="community.html" itemtype="http://schema.org/Thing" itemprop="item" data-piwik-event="Breadcrumb menu,click,Middleware">
+                                    <span class="breadcrumbs__title" itemprop="name">Community</span>
                                     <meta itemprop="position" content="2">
                                  </a>
                               </li>
@@ -366,6 +464,8 @@
                                     </section>       
                                  </div>                              
                               </div> 
+                           </div>
+                           <div class="pimcore_area_button-text pimcore_area_content">   
                               <div class="row equalize-row-1">
                                  <div class="col-12 col-md-6">
                                     <div class="box-shadow shadow-container" style="padding: 30px">
@@ -432,36 +532,69 @@
                               </div>
                               <p>No matter what kind of experience you want to create, we can build and launch your fully customized experience with Community Cloud forum software by Salesforce. We’ve built high-functioning online communities for companies of all types and sizes. Not only do we specialize in custom CRM development, but we show you why you should use Communities. We help you understand the benefits and show you why you should use Community Cloud.</p>
                            </div>
-
-                           <div class="pimcore_area_button-text pimcore_area_content">
-                              <nav class="tabs_container">
+                        </div>
+                     </div>
+                     <div class="pimcore_area_button-text pimcore_area_content">
+                              <nav class="tabs_container column-4">
                                  <a href="#tab-1" class="tabs" data-tabs-group="tab_group" data-tabs-active="true">Brand Your Experience</a>
                                  <a href="#tab-2" class="tabs" data-tabs-group="tab_group">Countless Features</a>
                                  <a href="#tab-3" class="tabs" data-tabs-group="tab_group">Training & Support</a>
                                  <a href="#tab-4" class="tabs" data-tabs-group="tab_group">Reports & Dashboards</a>
                               </nav>
                               <div class="tab_content" id="tab-1">
-                                 <p>Have people automatically follow up with first time guests, anniversaries, and any other situation you can imagine.</p>
-                                 <div class="a-button-text__link">
-                                    <a class="btn-default" href="#">More Details</a>
+                                 <div class="row">
+                                    <div class="col-12 col-md-6">
+                                       <img src="services/Women-in-office.jpg" class="img-responsive">
+                                       <div class="row-gutter-3"></div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                       <div class="a-button-text__title">
+                                          Brand Your Experience
+                                       </div>
+                                       <p>Salesforce Community Cloud makes it easy for you to brand your experience. You can start with a pre-built theme or customize every last pixel. We help you customize your community to meet your business needs and to match your company branding. Our team works diligently with your team to understand your needs so we can customize your experience to meet those needs.</p>
+                                    </div>                              
                                  </div>
                               </div>
                               <div class="tab_content" id="tab-2">
-                                 <p>Check people in on any device! Once the kids are checked in, volunteers can text the parents if needed!</p>
-                                 <div class="a-button-text__link">
-                                    <a class="btn-default" href="#">More Details</a>
+                                 <div class="row">
+                                    <div class="col-12 col-md-6">
+                                       <img src="services/Tablets-05-1.png" class="img-responsive">
+                                       <div class="row-gutter-3"></div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                       <div class="a-button-text__title">
+                                          Take Advantage of Countless Features
+                                       </div>
+                                       <p>Beyond customization options, there are numerous other features available in Community Cloud. Our experts know what features will be beneficial to your organization and we make sure to build those into your customized community.</p>
+                                    </div>                              
                                  </div>
                               </div>
                               <div class="tab_content" id="tab-3">
-                                 <p>Manage your service plans, song libraries, serving rotations and schedules from any device.</p>
-                                 <div class="a-button-text__link">
-                                    <a class="btn-default" href="#">More Details</a>
+                                 <div class="row">
+                                    <div class="col-12 col-md-6">
+                                       <img src="services/Appointment-Setting-Woman-5th-floor.jpg" class="img-responsive">
+                                       <div class="row-gutter-3"></div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                       <div class="a-button-text__title">
+                                          Training and Support
+                                       </div>
+                                       <p>Once we customize, set up, and launch your experience, our team of experts provides ongoing monthly support through our Virtual Salesforce Management package. Your entire organization will always have the tools needed to get started and use Communities, but we are always here to provide additional support.</p>
+                                    </div>                              
                                  </div>
                               </div>
                               <div class="tab_content" id="tab-4">
-                                 <p>Make life easy for your people with our giving software that allows you to give from any device without having to login!</p>
-                                 <div class="a-button-text__link">
-                                    <a class="btn-default" href="#">More Details</a>
+                                 <div class="row">
+                                    <div class="col-12 col-md-6">
+                                       <img src="services/Tablets-05-1.png" class="img-responsive">
+                                       <div class="row-gutter-3"></div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                       <div class="a-button-text__title">
+                                          Reports and Dashboards
+                                       </div>
+                                       <p>With Salesforce Community Cloud, you can keep tabs on activity and engagement directly with reports and dashboards. You can use an essential starter set or create custom reports to track usage, moderation, and other community activity. Being able to share customizable dashboards and reports with partners using Communities ensures alignment with key goals. These insights help partners focus on the best opportunities and increase sales with lead generation.</p>
+                                    </div>                              
                                  </div>
                               </div>                              
                               <script type="text/javascript">
@@ -477,8 +610,18 @@
                                     });
                                  });               
                               </script> 
-                           </div>
-                        </div>
+                              <script type="text/javascript">
+                                 require(['main'], function () {
+                                     require([
+                                         'jquery',
+                                         'core',
+                                         'mediaquery',
+                                         'equalize',
+                                     ], function ($) {
+                                       $(".tabs_container").equalize();
+                                    });
+                                 });               
+                           </script>
                      </div>
                      <script type="text/javascript">
                         (function () {
