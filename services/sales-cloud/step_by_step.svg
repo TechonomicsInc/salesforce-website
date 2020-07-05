@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="84px" height="84px"
+	 viewBox="0 0 84 84" enable-background="new 0 0 84 84" xml:space="preserve">
+<g id="Rectangle-290">
+	<g sketch:type="MSShapeGroup">
+		<path id="path-1" fill="#EEEEEE" stroke="#FFFFFF" stroke-width="4" d="M41,1h2c22.092,0,40,17.909,40,40v2
+			c0,22.092-17.908,40-40,40h-2C18.909,83,1,65.092,1,43v-2C1,18.909,18.909,1,41,1z"/>
+	</g>
+	<g>
+		<path id="path-1_1_" fill="none" stroke="#F2EDED" d="M41,1h2c22.092,0,40,17.909,40,40v2c0,22.092-17.908,40-40,40h-2
+			C18.909,83,1,65.092,1,43v-2C1,18.909,18.909,1,41,1z"/>
+	</g>
+</g>
+<g>
+	<path fill="#005EB8" d="M27.944,40.842c0.115,0,0.232-0.023,0.35-0.076l16.378-6.708c0.363-0.144,0.598-0.508,0.584-0.886
+		c0-0.407-0.248-0.746-0.637-0.875l-16.376-5.558c-0.287-0.095-0.602-0.042-0.848,0.129c-0.249,0.171-0.392,0.458-0.392,0.767
+		v12.252c0,0.313,0.144,0.631,0.417,0.788C27.577,40.792,27.758,40.842,27.944,40.842L27.944,40.842z"/>
+	<path fill="#005EB8" d="M27.741,37.8"/>
+	<path fill="#005EB8" d="M30.249,50.2L30.249,50.2c-0.747-1.875-2.396-3.287-4.415-3.737V26.176c0.687-0.38,1.168-1.085,1.168-1.927
+		c0-1.238-1.003-2.241-2.243-2.241c-1.239,0-2.252,1.003-2.252,2.241c0,0.821,0.46,1.498,1.105,1.886v20.256
+		c-3.012,0.438-5.336,3-5.336,6.134c0,3.432,2.785,6.218,6.216,6.218c2.613,0,4.845-1.618,5.756-3.893l0,0
+		C30.706,53.723,30.674,51.535,30.249,50.2z"/>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#005EB8" stroke-width="2" stroke-miterlimit="10" x1="27.741" y1="52.365" x2="34.19" y2="52.365"/>
+		<g>
+			<polygon fill="#005EB8" points="33.023,56.354 39.931,52.365 33.023,48.376 			"/>
+		</g>
+	</g>
+</g>
+<circle fill="#005EB8" cx="44.426" cy="52.522" r="4.494"/>
+<g>
+	<g>
+		<line fill="none" stroke="#005EB8" stroke-width="2" stroke-miterlimit="10" x1="48.324" y1="52.365" x2="52.385" y2="52.365"/>
+		<g>
+			<polygon fill="#005EB8" points="51.219,56.354 58.127,52.365 51.219,48.376 			"/>
+		</g>
+	</g>
+</g>
+<circle fill="#005EB8" cx="62.643" cy="52.522" r="4.494"/>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 84 84"
+	 style="enable-background:new 0 0 84 84;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EEEEEE;stroke:#FFFFFF;stroke-width:4;}
+	.st1{fill:none;stroke:#F2EDED;}
+	.st2{fill:#005EB8;}
+</style>
+<g id="Rectangle-290">
+	<g sketch:type="MSShapeGroup">
+		<path id="path-1" class="st0" d="M41,1h2c22.1,0,40,17.9,40,40v2c0,22.1-17.9,40-40,40h-2C18.9,83,1,65.1,1,43v-2
+			C1,18.9,18.9,1,41,1z"/>
+	</g>
+	<g>
+		<path id="path-1_1_" class="st1" d="M41,1h2c22.1,0,40,17.9,40,40v2c0,22.1-17.9,40-40,40h-2C18.9,83,1,65.1,1,43v-2
+			C1,18.9,18.9,1,41,1z"/>
+	</g>
+</g>
+<path class="st2" d="M60.7,37.3H23.9c-0.8,0-1.2,1.9-0.5,2.4l9.4,6.4c0.4,0.3,0.6,0.9,0.5,1.4L30,59.9c-0.2,0.9,0.9,1.6,1.5,0.9
+	l10.1-10.2c0.4-0.4,1.1-0.4,1.5,0l10.1,10.2c0.7,0.7,1.8,0,1.5-0.9l-3.3-12.3C51.2,47,51.5,46.4,52,46l9.3-6.3
+	C61.9,39.2,61.6,37.3,60.7,37.3z"/>
+<circle class="st2" cx="42.3" cy="28" r="5.8"/>
+</svg>

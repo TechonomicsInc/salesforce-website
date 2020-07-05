@@ -1,0 +1,224 @@
+﻿.ax_default {
+  font-family:'OpenSans-Regular', 'Open Sans';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.box_1 {
+}
+.box_2 {
+}
+.box_3 {
+}
+.ellipse {
+  font-family:'OpenSans-SemiBold', 'Open Sans SemiBold', 'Open Sans';
+  font-weight:650;
+  font-style:normal;
+  font-size:16px;
+  color:#FFFFFF;
+}
+.shape {
+  font-family:'ArialMT', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#0095E5;
+  text-align:center;
+  line-height:normal;
+}
+.image {
+}
+.button {
+}
+.primary_button {
+}
+.link_button {
+  font-family:'OpenSans-SemiBold', 'Open Sans SemiBold', 'Open Sans';
+  font-weight:650;
+  font-style:normal;
+  font-size:36px;
+  color:#115689;
+  text-align:left;
+}
+.next_button {
+}
+.heading_1 {
+  font-family:'OpenSans-SemiBold', 'Open Sans SemiBold', 'Open Sans';
+  font-weight:650;
+  font-style:normal;
+  font-size:36px;
+  color:#115689;
+  text-align:left;
+}
+.heading_2 {
+  font-family:'OpenSans-Regular', 'Open Sans';
+  font-weight:bold;
+  font-style:normal;
+  font-size:24px;
+  text-align:left;
+}
+.heading_3 {
+  font-family:'OpenSans-Regular', 'Open Sans';
+  font-weight:bold;
+  font-style:normal;
+  font-size:18px;
+  text-align:left;
+}
+.heading_4 {
+  font-family:'OpenSans-Regular', 'Open Sans';
+  font-weight:bold;
+  font-style:normal;
+  font-size:14px;
+  text-align:left;
+}
+.heading_5 {
+  font-family:'OpenSans-Regular', 'Open Sans';
+  font-weight:bold;
+  font-style:normal;
+  text-align:left;
+}
+.heading_6 {
+  font-family:'OpenSans-Regular', 'Open Sans';
+  font-weight:bold;
+  font-style:normal;
+  font-size:10px;
+  text-align:left;
+}
+.label {
+  font-size:14px;
+  text-align:left;
+}
+.paragraph {
+  text-align:left;
+}
+.line {
+}
+.html_button {
+  text-align:center;
+}
+.ellipse_active {
+}
+.ellipse_def {
+}
+.start_btn {
+  font-family:'OpenSans-SemiBold', 'Open Sans SemiBold', 'Open Sans';
+  font-weight:650;
+  font-style:normal;
+  font-size:18px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:50px;
+}
+.new_style {
+  font-family:'OpenSans-Regular', 'Open Sans';
+  font-weight:400;
+  font-style:normal;
+  font-size:15px;
+  color:#FFFFFF;
+  text-align:left;
+}
+.next_button1 {
+  font-family:'OpenSans-Regular', 'Open Sans';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:normal;
+}
+.text_tips {
+  font-family:'OpenSans-Regular', 'Open Sans';
+  font-weight:400;
+  font-style:normal;
+  font-size:18px;
+  color:#FFFFFF;
+  text-align:left;
+  line-height:30px;
+}
+.title_tips {
+  font-family:'OpenSans-SemiBold', 'Open Sans SemiBold', 'Open Sans';
+  font-weight:650;
+  font-style:normal;
+  font-size:20px;
+  color:#47BDFC;
+  text-align:left;
+  line-height:28px;
+}
+.el_1_visted {
+  font-family:'OpenSans-SemiBold', 'Open Sans SemiBold', 'Open Sans';
+  font-weight:650;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+}
+.el_2_visited {
+  font-family:'OpenSans-SemiBold', 'Open Sans SemiBold', 'Open Sans';
+  font-weight:650;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+}
+.ellipse_large {
+  font-family:'OpenSans-SemiBold', 'Open Sans SemiBold', 'Open Sans';
+  font-weight:650;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+}
+.icon {
+}
+.cta_pop-up {
+}
+.pop-up_title {
+  font-family:'OpenSans-SemiBold', 'Open Sans SemiBold', 'Open Sans';
+  font-weight:650;
+  font-style:normal;
+  font-size:20px;
+  color:#005EB8;
+  text-align:left;
+  line-height:30px;
+}
+.get_a_quote_btn {
+  font-family:'OpenSans-SemiBold', 'Open Sans SemiBold', 'Open Sans';
+  font-weight:650;
+  font-style:normal;
+  font-size:18px;
+  color:#FFFFFF;
+}
+.secondary_btw {
+  font-family:'OpenSans-SemiBold', 'Open Sans SemiBold', 'Open Sans';
+  font-weight:650;
+  font-style:normal;
+  font-size:14px;
+  color:#005EB8;
+}
+.pop-up_text {
+  font-family:'OpenSans-Regular', 'Open Sans';
+  font-weight:400;
+  font-style:normal;
+  font-size:16px;
+  color:#444444;
+  text-align:left;
+  line-height:26px;
+}
+.finish_box {
+}
+.outlined_blue_btn {
+  font-family:'OpenSans-SemiBold', 'Open Sans SemiBold', 'Open Sans';
+  font-weight:650;
+  font-style:normal;
+  font-size:16px;
+  color:#005EB8;
+}
+.white_outlined_btn {
+}
+.pop-up_blue_btn {
+  font-family:'OpenSans-SemiBold', 'Open Sans SemiBold', 'Open Sans';
+  font-weight:650;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+}
