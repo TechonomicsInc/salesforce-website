@@ -1,0 +1,1 @@
+define(["jquery"],function(){function t(e){var t=e.elem;$(t).on("click",function(e){!function t(){if("undefined"!=typeof _paq){_paq.push(["trackEvent","Editable: Logos-Image editable contact us","Editable: Logos-Image editable contact us: click","Editable: Logos-Image editable contact us: click: click"])}}()})}return function(e){t(e)}});
