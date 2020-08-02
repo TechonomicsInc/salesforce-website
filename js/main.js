@@ -3,6 +3,7 @@ require.config({
     waitSeconds: 30,
     paths: {
         jquery: "lib/jquery.min",
+        jqueryLatest: "lib/jquery-latest/jquery.min",
         validate: "lib/jquery.validate.min",
         tingle: "lib/tingle.min",
         bxSlider: "lib/jquery.bxslider.min",
@@ -65,6 +66,9 @@ require.config({
     	swap: "formstone/js/swap",
     	tabs: "formstone/js/tabs",
         equalize: "formstone/js/equalize",
+        bootstrap: "modules/bootstrap.min",
+        touchSwipe: "modules/jquery.touchSwipe.min",
+        touchSlider: "modules/bootstrap-touch-slider"
     },
     shim: {
         initModules: ["jquery", "domReady"],
