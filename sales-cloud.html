@@ -17,7 +17,7 @@
             <div class="container">
                <div class="header__wrapper" data-nosnippet>
                   <div class="header__brand header-brand">
-                     <img src="images/logo.png" />
+                     <a href="/"><img src="images/logo.png" /></a>
                   </div>
                   <div class="header__bar">
                      <nav class="header__menu header-menu" data-module-init='{"mainMenu":{
@@ -28,6 +28,13 @@
                         }}'>
                         <div id="menu-categories">
                            <ul class="menu-categories__items">
+                              <li data-top-level class="menu-categories__item menu-categories__level-1 menu-categories__item">
+                                 <div class="menu-categories__title--level-1">
+                                    <a href="/">
+                                       <span class="menu-title">Home</span>
+                                    </a>
+                                 </div>
+                              </li>
                               <li data-top-level class="menu-categories__item menu-categories__level-1                         ">
                                  <div class="menu-categories__title--level-1">
                                     <span class="menu-title">Products</span>
@@ -126,27 +133,27 @@
                                     </div>
                                  </div>
                               </li>
-                              <li data-top-level class="menu-categories__item menu-categories__level-1                         ">
+                              <li data-top-level class="menu-categories__item menu-categories__level-1">
                                  <div class="menu-categories__title--level-1">
-                                    <a href="case-studies.html">
-                                    <span class="menu-title">Case Studies</span>
+                                    <a href="support.html">
+                                       <span class="menu-title">Support</span>
                                     </a>
                                  </div>
                               </li>
-                              <li data-top-level class="menu-categories__item menu-categories__level-1                         ">
+                              <li data-top-level class="menu-categories__item menu-categories__level-1">
                                  <div class="menu-categories__title--level-1">
-                                    <a href="careers.html">
-                                    <span class="menu-title">Careers</span>
+                                    <a href="contact-us.html">
+                                       <span class="menu-title">Contact Us</span>
                                     </a>
                                  </div>
                               </li>
                               <li data-top-level="" class="menu-categories__item menu-categories__level-1 menu-categories__level-1--important menu-categories__item-active">
-                               <div class="menu-categories__title--level-1">
-                                  <a href="contact-us.html">
-                                     <span class="menu-title">Contact Us</span>
-                                  </a>
-                               </div>
-                              </li> 
+                                 <div class="menu-categories__title--level-1">
+                                    <a href="contact-us.html">
+                                       <span class="menu-title">Free Consultation</span>
+                                    </a>
+                                 </div>
+                              </li>  
                            </ul>
                         </div>
                      </nav>
@@ -176,13 +183,18 @@
          <![endif]-->
          <div data-menu-mobile class="menu-mobile" data-nosnippet>
             <div class="menu-mobile__wrapper">
-               <div data-menu-close onclick="if (!window.__cfRLUnblockHandlers) return false; storageModule.mobileMenuClose()" class="menu-mobile__close" data-piwik-event="Mobile menu,click,close" data-cf-modified-27f48aa1e23db51624dd127e-="">
+               <div data-menu-close onclick="storageModule.mobileMenuClose()" class="menu-mobile__close" data-piwik-event="Mobile menu,click,close" data-cf-modified-27f48aa1e23db51624dd127e-="">
                   <button type="button" class="btn menu-mobile__btn-close">
                   <i class="icon-s-close"></i>
                   </button>
                </div>
                <div class="menu-mobile__inner">
                   <ul class="menu-mobile__items menu-mobile-list__items">
+                     <li data-open-submenu class="menu-mobile-list__item">
+                        <a class="menu-mobile-list__link" href="/">
+                           <span class="menu-mobile-list__title">Home</span>
+                        </a>
+                     </li>
                      <li data-open-submenu class="menu-mobile-list__item">
                         <div data-subitems-toggle class="menu-mobile-list__title menu-mobile-list__title--toggle">Products</div>
                         <ul class="menu-mobile-sublist">
@@ -234,20 +246,20 @@
                         </ul>
                      </li>
                      <li data-open-submenu class="menu-mobile-list__item">
-                        <a class="menu-mobile-list__link" href="case-studies.html">
-                        <span class="menu-mobile-list__title">Case Studies</span>
+                        <a class="menu-mobile-list__link" href="support.html">
+                           <span class="menu-mobile-list__title">Support</span>
                         </a>
                      </li>
                      <li data-open-submenu class="menu-mobile-list__item">
-                        <a class="menu-mobile-list__link" href="careers.html">
-                        <span class="menu-mobile-list__title">Careers</span>
+                        <a class="menu-mobile-list__link" href="contact-us.html">
+                           <span class="menu-mobile-list__title">Contact Us</span>
                         </a>
-                     </li>  
+                     </li>     
                      <li data-open-submenu="" class="menu-mobile-list__item">
                         <a class="menu-mobile-list__link" href="contact-us.html">
-                           <span class="menu-mobile-list__important">Contact Us</span>
+                           <span class="menu-mobile-list__important">Free Consultation</span>
                         </a>
-                     </li>                  
+                     </li>                   
                   </ul>
                </div>
             </div>
@@ -1146,12 +1158,7 @@
                                     <li>Functionality covering all sales processes and best sales practices embedded.</li>
                                     <li>3,400 apps on AppExchange, a Salesforce marketplace. The apps enable you to expand Salesforce functionality for particular domains or tasks.</li>
                                     <li>Exceptional capabilities for customization. Sales Cloud can be customized with a point-and-click tool in a few minutes. And if you need sophisticated functionality to reflect your unique processes, no problem, it can be implemented with code <em>(Apex, Lightning components, Visualforce)</em>.</li>
-                                 </ul>
-                                 <blockquote>
-                                    <p>We chose to go with Salesforce for its intelligence, its scale, and its ability to support our needs beyond just the basic CRM.</p>
-                                 </blockquote>
-                                 <p style="text-align:right"><strong><em>Michael Eggers, Director of Finance at Amazon Web Services</em></strong></p>
-                                 <p style="text-align:right"><span style="font-size:14px"><em><a href="https://www.salesforce.com/customer-success-stories/aws/" target="_blank">Source</a></em></span></p>
+                                 </ul>                                 
                                  <h3>High ROI</h3>
                                  <p>Salesforce Sales Cloud was not designed to be cheap; it was designed to be a tool to win deals from rivals having other CRM software.</p>
                                  <p>Salesforce was created for high ROI, and it works. Salesforce implementation may <strong>bring up to 600% ROI.</strong></p>
@@ -1163,13 +1170,7 @@
                                     <li>Reports are highly customizable.</li>
                                     <li>Chatter allows keeping communication in one place.</li>
                                     <li><strong>Single entry point for data - a user does not need to reenter it to another application, send email notification manually, etc.</strong></li>
-                                 </ul>
-                                 <p>Salesforce got especially convenient with modern <em>Lightning Experience </em>interface released in 2016.</p>
-                                 <blockquote>
-                                    <p>All the tracking, all of the comments and intelligence going back and forth between sales team on how to close that deal, all of it happens in Salesforce.</p>
-                                 </blockquote>
-                                 <p style="text-align:right"><strong><em>Jon Dack, VP of Technology at Toast</em></strong></p>
-                                 <p style="text-align:right"><span style="font-size:14px"><em><a href="https://www.salesforce.com/customer-success-stories/toast/" target="_blank">Source</a></em></span></p>
+                                 </ul>                                 
                                  <h3>Integrated with Other Applications</h3>
                                  <p>Salesforce customers <strong>integrate Sales Cloud with ERP, supply chain, HR, ecommerce and other software</strong> of thousands of vendors via API (application programming interface).</p>
                                  <p>There are 2,000 apps on AppExchange that enable integration with other applications.</p>
@@ -1233,8 +1234,8 @@
                                                    </div>
                                                 </div>
                                                 <div class="a-table-buttons__footer">
-                                                   <a data-piwik-event="Editable: Table with button hover,click,link: Lightning Essentials" class="btn-default align-items-center" href="#" target="">
-                                                   Request a Demo
+                                                   <a data-piwik-event="Editable: Table with button hover,click,link: Lightning Essentials" class="btn-default align-items-center" href="contact-us.html" target="">
+                                                   Contact Us
                                                    </a>
                                                 </div>
                                                 <div class="b-table-column__shadow"></div>
@@ -1260,8 +1261,8 @@
                                                    </div>
                                                 </div>
                                                 <div class="a-table-buttons__footer">
-                                                   <a data-piwik-event="Editable: Table with button hover,click,link: Lightning Professional" class="btn-default align-items-center" href="#" target="">
-                                                   Request a demo
+                                                   <a data-piwik-event="Editable: Table with button hover,click,link: Lightning Professional" class="btn-default align-items-center" href="contact-us.html" target="">
+                                                   Contact Us
                                                    </a>
                                                 </div>
                                                 <div class="b-table-column__shadow"></div>
@@ -1290,8 +1291,8 @@
                                                    </div>
                                                 </div>
                                                 <div class="a-table-buttons__footer">
-                                                   <a data-piwik-event="Editable: Table with button hover,click,link: Lightning Enterprise" class="btn-default align-items-center" href="#" target="">
-                                                   Discuss implementation
+                                                   <a data-piwik-event="Editable: Table with button hover,click,link: Lightning Enterprise" class="btn-default align-items-center" href="contact-us.html" target="">
+                                                   Contact Us
                                                    </a>
                                                 </div>
                                                 <div class="b-table-column__shadow"></div>
@@ -1357,8 +1358,8 @@
                                                    });
                                                 </script>
                                                 <div class="a-table-buttons__footer">
-                                                   <a data-piwik-event="Editable: Table with button hover,click,link: Lightning Unlimited" class="btn-default align-items-center" href="#" target="">
-                                                   Discuss implementation
+                                                   <a data-piwik-event="Editable: Table with button hover,click,link: Lightning Unlimited" class="btn-default align-items-center" href="contact-us.html" target="">
+                                                   Contact Us
                                                    </a>
                                                 </div>
                                                 <div class="b-table-column__shadow"></div>
@@ -1430,7 +1431,7 @@
                                     </div>
                                     <div class="col-12 col-md-4 col-lg-3 col-xxl-3">
                                        <div class="a-button-text__link">
-                                          <a class="btn-default" href="#">Request a Free Consultation</a>
+                                          <a class="btn-default" href="contact-us.html">Request a Free Consultation</a>
                                        </div>
                                     </div>
                                  </div>

@@ -17,7 +17,7 @@
             <div class="container">
                <div class="header__wrapper" data-nosnippet>
                   <div class="header__brand header-brand">
-                     <img src="images/logo.png" />
+                     <a href="/"><img src="images/logo.png" /></a>
                   </div>
                   <div class="header__bar">
                      <nav class="header__menu header-menu" data-module-init='{"mainMenu":{
@@ -28,6 +28,13 @@
                         }}'>
                         <div id="menu-categories">
                            <ul class="menu-categories__items">
+                              <li data-top-level class="menu-categories__item menu-categories__level-1 menu-categories__item">
+                                 <div class="menu-categories__title--level-1">
+                                 <a href="/">
+                                       <span class="menu-title">Home</span>
+                                    </a>
+                                 </div>
+                              </li>
                               <li data-top-level class="menu-categories__item menu-categories__level-1                         ">
                                  <div class="menu-categories__title--level-1">
                                     <span class="menu-title">Products</span>
@@ -126,26 +133,26 @@
                                     </div>
                                  </div>
                               </li>
-                              <li data-top-level class="menu-categories__item menu-categories__level-1                         ">
+                              <li data-top-level class="menu-categories__item menu-categories__level-1">
                                  <div class="menu-categories__title--level-1">
-                                    <a href="case-studies.html">
-                                    <span class="menu-title">Case Studies</span>
+                                    <a href="support.html">
+                                       <span class="menu-title">Support</span>
                                     </a>
                                  </div>
                               </li>
-                              <li data-top-level class="menu-categories__item menu-categories__level-1                         ">
+                              <li data-top-level class="menu-categories__item menu-categories__level-1">
                                  <div class="menu-categories__title--level-1">
-                                    <a href="careers.html">
-                                    <span class="menu-title">Careers</span>
+                                    <a href="contact-us.html">
+                                       <span class="menu-title">Contact Us</span>
                                     </a>
                                  </div>
                               </li>
                               <li data-top-level="" class="menu-categories__item menu-categories__level-1 menu-categories__level-1--important menu-categories__item-active">
-                               <div class="menu-categories__title--level-1">
-                                  <a href="contact-us.html">
-                                     <span class="menu-title">Contact Us</span>
-                                  </a>
-                               </div>
+                                 <div class="menu-categories__title--level-1">
+                                    <a href="contact-us.html">
+                                       <span class="menu-title">Free Consultation</span>
+                                    </a>
+                                 </div>
                               </li>
                            </ul>
                         </div>
@@ -176,13 +183,18 @@
          <![endif]-->
          <div data-menu-mobile class="menu-mobile" data-nosnippet>
             <div class="menu-mobile__wrapper">
-               <div data-menu-close onclick="if (!window.__cfRLUnblockHandlers) return false; storageModule.mobileMenuClose()" class="menu-mobile__close" data-piwik-event="Mobile menu,click,close" data-cf-modified-27f48aa1e23db51624dd127e-="">
+               <div data-menu-close onclick="storageModule.mobileMenuClose()" class="menu-mobile__close" data-piwik-event="Mobile menu,click,close" data-cf-modified-27f48aa1e23db51624dd127e-="">
                   <button type="button" class="btn menu-mobile__btn-close">
                   <i class="icon-s-close"></i>
                   </button>
                </div>
                <div class="menu-mobile__inner">
                   <ul class="menu-mobile__items menu-mobile-list__items">
+                     <li data-open-submenu class="menu-mobile-list__item">
+                        <a class="menu-mobile-list__link" href="/">
+                           <span class="menu-mobile-list__title">Home</span>
+                        </a>
+                     </li>
                      <li data-open-submenu class="menu-mobile-list__item">
                         <div data-subitems-toggle class="menu-mobile-list__title menu-mobile-list__title--toggle">Products</div>
                         <ul class="menu-mobile-sublist">
@@ -234,18 +246,18 @@
                         </ul>
                      </li>
                      <li data-open-submenu class="menu-mobile-list__item">
-                        <a class="menu-mobile-list__link" href="case-studies.html">
-                        <span class="menu-mobile-list__title">Case Studies</span>
+                        <a class="menu-mobile-list__link" href="support.html">
+                           <span class="menu-mobile-list__title">Support</span>
                         </a>
                      </li>
                      <li data-open-submenu class="menu-mobile-list__item">
-                        <a class="menu-mobile-list__link" href="careers.html">
-                        <span class="menu-mobile-list__title">Careers</span>
+                        <a class="menu-mobile-list__link" href="contact-us.html">
+                           <span class="menu-mobile-list__title">Contact Us</span>
                         </a>
-                     </li>  
+                     </li>     
                      <li data-open-submenu="" class="menu-mobile-list__item">
                         <a class="menu-mobile-list__link" href="contact-us.html">
-                           <span class="menu-mobile-list__important">Contact Us</span>
+                           <span class="menu-mobile-list__important">Free Consultation</span>
                         </a>
                      </li>                  
                   </ul>
@@ -592,7 +604,7 @@
                                     </div>
                                     <div class="col-12 col-md-4 col-lg-3 col-xxl-3">
                                        <div class="a-button-text__link">
-                                          <a class="btn-default" href="#">Find out your value</a>
+                                          <a class="btn-default" href="contact-us.html">Contact Us</a>
                                        </div>
                                     </div>
                                  </div>
@@ -791,7 +803,7 @@
                                     </div>
                                     <div class="col-12 col-md-4 col-lg-3 col-xxl-3">
                                        <div class="a-button-text__link">
-                                          <a class="btn-default" href="#">Request a free demo</a>
+                                          <a class="btn-default" href="contact-us.html">Contact Us</a>
                                        </div>
                                     </div>
                                  </div>
@@ -970,8 +982,8 @@
                                                 </div>
                                              </div>
                                              <div class="a-table-buttons__footer">
-                                                <a data-piwik-event="Editable: Table with button,click,link: Suite 1. Email, Mobile, and Web Marketing" class="btn-default align-items-center" href="#" target="">
-                                                get pricing details
+                                                <a class="btn-default align-items-center" href="contact-us.html" target="">
+                                                Contact Us
                                                 </a>
                                              </div>
                                           </div>
@@ -991,8 +1003,8 @@
                                                 </div>
                                              </div>
                                              <div class="a-table-buttons__footer">
-                                                <a data-piwik-event="Editable: Table with button,click,link: Suite 2. Social Media Marketing" class="btn-default align-items-center" href="#" target="">
-                                                get pricing details
+                                                <a class="btn-default align-items-center" href="contact-us.html" target="">
+                                                Contact Us
                                                 </a>
                                              </div>
                                           </div>
@@ -1011,8 +1023,8 @@
                                                 </div>
                                              </div>
                                              <div class="a-table-buttons__footer">
-                                                <a data-piwik-event="Editable: Table with button,click,link: Suite 3. Digital Advertising" class="btn-default align-items-center" href="#" target="">
-                                                get pricing details
+                                                <a class="btn-default align-items-center" href="contact-us.html" target="">
+                                                Contact Us
                                                 </a>
                                              </div>
                                           </div>
@@ -1075,8 +1087,8 @@
                                                 });
                                              </script>
                                              <div class="a-table-buttons__footer">
-                                                <a data-piwik-event="Editable: Table with button,click,link: Suite 4. B2B Marketing Automation" class="btn-default align-items-center" href="#" target="">
-                                                get pricing details
+                                                <a class="btn-default align-items-center" href="contact-us.html" target="">
+                                                Contact Us
                                                 </a>
                                              </div>
                                           </div>
@@ -1096,14 +1108,9 @@
                                     </div>
                                  </div>
                                  <div class="row">
-                                    <div class="col-12 col-md-8 col-lg-7 offset-lg-1 col-xxl-7">
+                                    <div class="col-12 col-lg-11 offset-lg-1 col-xxl-11">
                                        <div class="a-button-text__description">
                                           Don’t hesitate to get better leads, higher conversion and increased marketing ROI.
-                                       </div>
-                                    </div>
-                                    <div class="col-12 col-md-4 col-lg-3 col-xxl-3">
-                                       <div class="a-button-text__link">
-                                          <a class="btn-default" href="#">Find out how</a>
                                        </div>
                                     </div>
                                  </div>

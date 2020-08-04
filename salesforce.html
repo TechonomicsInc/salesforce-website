@@ -16,7 +16,7 @@
             <div class="container">
                <div class="header__wrapper" data-nosnippet>
                   <div class="header__brand header-brand">
-                     <img src="images/logo.png" />
+                     <a href="/"><img src="images/logo.png" /></a>
                   </div>
                   <div class="header__bar">
                      <nav class="header__menu header-menu" data-module-init='{"mainMenu":{
@@ -27,6 +27,13 @@
                         }}'>
                         <div id="menu-categories">
                            <ul class="menu-categories__items">
+                              <li data-top-level class="menu-categories__item menu-categories__level-1 menu-categories__item">
+                                 <div class="menu-categories__title--level-1">
+                                    <a href="/">
+                                       <span class="menu-title">Home</span>
+                                    </a>
+                                 </div>
+                              </li>
                               <li data-top-level class="menu-categories__item menu-categories__level-1                         ">
                                  <div class="menu-categories__title--level-1">
                                     <span class="menu-title">Products</span>
@@ -125,27 +132,27 @@
                                     </div>
                                  </div>
                               </li>
-                              <li data-top-level class="menu-categories__item menu-categories__level-1                         ">
+                              <li data-top-level class="menu-categories__item menu-categories__level-1">
                                  <div class="menu-categories__title--level-1">
-                                    <a href="case-studies.html">
-                                    <span class="menu-title">Case Studies</span>
+                                    <a href="support.html">
+                                       <span class="menu-title">Support</span>
                                     </a>
                                  </div>
                               </li>
-                              <li data-top-level class="menu-categories__item menu-categories__level-1                         ">
+                              <li data-top-level class="menu-categories__item menu-categories__level-1">
                                  <div class="menu-categories__title--level-1">
-                                    <a href="careers.html">
-                                    <span class="menu-title">Careers</span>
+                                    <a href="contact-us.html">
+                                       <span class="menu-title">Contact Us</span>
                                     </a>
                                  </div>
                               </li>
                               <li data-top-level="" class="menu-categories__item menu-categories__level-1 menu-categories__level-1--important menu-categories__item-active">
-                               <div class="menu-categories__title--level-1">
-                                  <a href="contact-us.html">
-                                     <span class="menu-title">Contact Us</span>
-                                  </a>
-                               </div>
-                              </li> 
+                                 <div class="menu-categories__title--level-1">
+                                    <a href="contact-us.html">
+                                       <span class="menu-title">Free Consultation</span>
+                                    </a>
+                                 </div>
+                              </li>  
                            </ul>
                         </div>
                      </nav>
@@ -175,13 +182,18 @@
          <![endif]-->
          <div data-menu-mobile class="menu-mobile" data-nosnippet>
             <div class="menu-mobile__wrapper">
-               <div data-menu-close onclick="if (!window.__cfRLUnblockHandlers) return false; storageModule.mobileMenuClose()" class="menu-mobile__close" data-piwik-event="Mobile menu,click,close" data-cf-modified-27f48aa1e23db51624dd127e-="">
+               <div data-menu-close onclick="storageModule.mobileMenuClose()" class="menu-mobile__close" data-piwik-event="Mobile menu,click,close" data-cf-modified-27f48aa1e23db51624dd127e-="">
                   <button type="button" class="btn menu-mobile__btn-close">
                   <i class="icon-s-close"></i>
                   </button>
                </div>
                <div class="menu-mobile__inner">
                   <ul class="menu-mobile__items menu-mobile-list__items">
+                     <li data-open-submenu class="menu-mobile-list__item">
+                        <a class="menu-mobile-list__link" href="/">
+                           <span class="menu-mobile-list__title">Home</span>
+                        </a>
+                     </li>
                      <li data-open-submenu class="menu-mobile-list__item">
                         <div data-subitems-toggle class="menu-mobile-list__title menu-mobile-list__title--toggle">Products</div>
                         <ul class="menu-mobile-sublist">
@@ -233,20 +245,20 @@
                         </ul>
                      </li>
                      <li data-open-submenu class="menu-mobile-list__item">
-                        <a class="menu-mobile-list__link" href="case-studies.html">
-                        <span class="menu-mobile-list__title">Case Studies</span>
+                        <a class="menu-mobile-list__link" href="support.html">
+                           <span class="menu-mobile-list__title">Support</span>
                         </a>
                      </li>
                      <li data-open-submenu class="menu-mobile-list__item">
-                        <a class="menu-mobile-list__link" href="careers.html">
-                        <span class="menu-mobile-list__title">Careers</span>
+                        <a class="menu-mobile-list__link" href="contact-us.html">
+                           <span class="menu-mobile-list__title">Contact Us</span>
                         </a>
-                     </li>
+                     </li>     
                      <li data-open-submenu="" class="menu-mobile-list__item">
                         <a class="menu-mobile-list__link" href="contact-us.html">
-                           <span class="menu-mobile-list__important">Contact Us</span>
+                           <span class="menu-mobile-list__important">Free Consultation</span>
                         </a>
-                     </li>
+                     </li> 
                   </ul>
                </div>
             </div>
@@ -484,7 +496,7 @@
                                     </div>
                                     <div class="col-12 col-md-4 col-lg-3 col-xxl-3">
                                        <div class="a-button-text__link">
-                                          <a class="btn-default" href="contact-us.html">Get Salesforce audit</a>
+                                          <a class="btn-default" href="contact-us.html">Contact Us</a>
                                        </div>
                                     </div>
                                  </div>
@@ -524,8 +536,6 @@
                                           <p>Rely on our skilled consultants to solve your specific CRM challenges – from low sales productivity and deficient alignment between departments to CRM performance issues. Our experts will train your employees to fulfill the potential of Salesforce.</p>
                                        </div>
                                     </div>
-                                    <a href="#" target="" class="a-service-cards_content-link-wrap" ></a>
-                                    <div class="a-service-cards_content-link btn-link-arrow  btn-link-arrow--right">check our salesforce consulting services</div>
                                  </div>
                               </div>
                               <div class="a-service-cards">
@@ -541,8 +551,6 @@
                                           <p>Our team is ready to perform Salesforce implementation for you to get a reliable solution. From implementation consulting to after-launch support, we work on the solution that will efficiently address your business needs.</p>
                                        </div>
                                     </div>
-                                    <a href="#" target="" class="a-service-cards_content-link-wrap" data-piwik-event="Editable: Wide-service-cards,click,link: Salesforce implementation"></a>
-                                    <div class="a-service-cards_content-link btn-link-arrow  btn-link-arrow--right">check our salesforce implementation services</div>
                                  </div>
                               </div>
                               <div class="a-service-cards">
@@ -558,8 +566,6 @@
                                           <p>Get a solution designed to fit the requirements of your industry and business. Unlock all capabilities of the Salesforce platform with fine-tuned modules for sales and marketing automation, lead and opportunity management, performance management, reporting and more.</p>
                                        </div>
                                     </div>
-                                    <a href="#" target="" class="a-service-cards_content-link-wrap" data-piwik-event="Editable: Wide-service-cards,click,link: Salesforce customization"></a>
-                                    <div class="a-service-cards_content-link btn-link-arrow  btn-link-arrow--right">check our salesforce customization services</div>
                                  </div>
                               </div>
                               <div class="a-service-cards">
@@ -575,8 +581,6 @@
                                           <p>Get a custom Salesforce application to go far beyond default functionality in improving your sales, marketing and customer service processes, or an AppExchange app to generate revenue from it, or an app to integrate your software product with Salesforce.</p>
                                        </div>
                                     </div>
-                                    <a href="#" target="" class="a-service-cards_content-link-wrap" data-piwik-event="Editable: Wide-service-cards,click,link: Salesforce application development"></a>
-                                    <div class="a-service-cards_content-link btn-link-arrow  btn-link-arrow--right">check our salesforce application development services</div>
                                  </div>
                               </div>
                               <div class="a-service-cards">
@@ -607,8 +611,6 @@
                                           <p>Ensure a seamless information flow between departments and get full customer data consistency by connecting Salesforce to other corporate software run on the premises or hosted in the cloud. We are ready to take up complex projects regarding Salesforce integration with ERP, CRM, accounting, marketing automation, and other systems.</p>
                                        </div>
                                     </div>
-                                    <a href="#" target="" class="a-service-cards_content-link-wrap" data-piwik-event="Editable: Wide-service-cards,click,link: Salesforce integration"></a>
-                                    <div class="a-service-cards_content-link btn-link-arrow  btn-link-arrow--right">check our salesforce integration services</div>
                                  </div>
                               </div>
                               <div class="a-service-cards">
@@ -639,8 +641,6 @@
                                           <p>Ensure long-term stability of your Salesforce. Just choose a convenient package to anticipate and promptly resolve performance issues, minimize system downtimes, and improve user adoption.</p>
                                        </div>
                                     </div>
-                                    <a href="#" target="" class="a-service-cards_content-link-wrap" data-piwik-event="Editable: Wide-service-cards,click,link: Salesforce support and maintenance"></a>
-                                    <div class="a-service-cards_content-link btn-link-arrow  btn-link-arrow--right">check our salesforce support and maintenance services</div>
                                  </div>
                               </div>
                            </div>
