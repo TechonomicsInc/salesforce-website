@@ -7,6 +7,7 @@
     <title>ADISOLS - Salesforce Consulting, Support, Staffing</title>
     <link href="css/home-page.css" type="text/css" rel="stylesheet">
     <link href="css/common.css" type="text/css" rel="stylesheet">
+    <link href="css/responsiveslides.css" type="text/css" rel="stylesheet">
     <script type="text/javascript" data-main="js/main.js" src="js/require.js"></script>
 </head>
 
@@ -275,6 +276,47 @@
             <div class="home-page" data-module-init='{"initWaypoints":{}}'>
                <div class="pimcore_area_cover-image-services pimcore_area_content">
                   <div class="a-cover-services__background lazy">
+                     <div class="callbacks_container" style="position: relative">
+                        <ul class="rslides" id="mainSlider">
+                          <li>
+                              <img src="banner/applications.png" alt="">
+                              <!-- <div class="caption">
+                                 <h2 style="font-size: 40px">Sales cloud implementation</h2>
+                                 <span>KNOW YOUR CUSTOMER</span>
+                                 <span>RETAIN CUSTOMERS</span>
+                                 <span>WIN NEW CUSTOMERS</span>
+                                 <span>360 VIEW OF GOALS, ISSUES, OPPORTUNITIES</span>
+                                 <span>DATA AND PROCESS TO ACT EARLY</span>
+                                 <span>OPTIMIZED OPPTY, QUOTE PROCESS</span>
+                              </div> -->
+                          </li>
+                          <li>
+                            <img src="banner/community.jpg" alt="">
+                            <!-- <p class="caption">This is another caption</p> -->
+                          </li>
+                          <li>
+                            <img src="banner/sales.jpg" alt="">
+                            <!-- <p class="caption">The third caption</p> -->
+                          </li>
+                        </ul>
+                      </div>
+                     <script type="text/javascript">
+                              require(['main'], function () {
+                                  require([
+                                      'jquery',
+                                      'responsiveSlide'
+                                  ], function ($) {
+                                    $("#mainSlider").responsiveSlides({
+                                      auto: false,
+                                      pager: false,
+                                      nav: true,
+                                      speed: 500,
+                                      namespace: "callbacks"
+                                    });
+                                  })
+                              });   
+                     </script>               
+
                      <section class="a-cover-services">
                         <div class="container">
                            <h1 class="a-section__title h1  1 ">
@@ -1876,7 +1918,7 @@
          <!--[if IE]>
         <!-- zone: footer -->
         <![endif]-->
-         <footer id="footer" data-module-init='{"scrolling":{}}' class="footer">
+         <footer id="footer" class="footer">
             <div class="container">
                <div class="footer__wrapper">
                   <div class="footer__group">

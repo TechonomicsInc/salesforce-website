@@ -8653,20 +8653,20 @@ input.md-input.hasError~.md-error~i {
     .home-page .header.header-transparent {
         -webkit-box-shadow: none;
         box-shadow: none;
-        background-color: transparent
+        background-color: #fff;
     }
     .home-page .header.header-solid {
         background-color: #fff;
         -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .1);
         box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .1)
     }
-    .home-page .header.header-animation {
+    /*.home-page .header.header-animation {
         -webkit-animation: bg-color 1s;
         animation: bg-color 1s;
         background-color: #fff;
         -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .1);
         box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .1)
-    }
+    }*/
     .header__wrapper {
         height: 45px
     }

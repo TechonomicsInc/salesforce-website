@@ -1,0 +1,94 @@
+/*! http://responsiveslides.com v1.55 by @viljamis */
+.callbacks_container {
+  top: 71px;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+.callbacks_nav.prev {
+    background: rgba(0,0,0,0.4);
+    z-index: 2;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 100%;
+    font-size: 0px;
+    margin-left: 30px;
+}
+.callbacks_nav.next {
+    background: rgba(0,0,0,0.4);
+    z-index: 2;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right:0;
+    margin: auto;
+    border-radius: 100%;
+    font-size: 0px;
+    margin-right: 30px;
+}
+
+.callbacks_nav.next:after {
+  position: relative;
+  content: "";
+  border: solid #fff;
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 6px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  left: 18px;
+  top: 20px;
+}
+.callbacks_nav.prev:after {
+  position: relative;
+  content: "";
+  border: solid #fff;
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 6px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  left: 25px;
+  top: 20px;
+}
+.caption {
+  position: absolute;
+  width: 500px;
+  left: 100px;
+  top: 50px;
+}

@@ -64,7 +64,8 @@ require.config({
     	mediaquery: "formstone/js/mediaquery",
     	swap: "formstone/js/swap",
     	tabs: "formstone/js/tabs",
-        equalize: "formstone/js/equalize"
+        equalize: "formstone/js/equalize",
+        responsiveSlide: "modules/responsiveslides.min"
     },
     shim: {
         initModules: ["jquery", "domReady"],
@@ -73,6 +74,7 @@ require.config({
         waypoints: ["jquery"],
         initWaypoints: ["waypoints", "domReady"],
         bxSlider: ["jquery"],
+        responsiveSlide: ["jquery"],
         languagesSwitch: ["jquery"],
         search: ["jquery"],
         mainMenu: ["jquery"],
