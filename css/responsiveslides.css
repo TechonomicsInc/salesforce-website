@@ -33,6 +33,7 @@
   float: left;
   width: 100%;
   border: 0;
+  opacity: 0.6;
   }
 .callbacks_nav.prev {
     background: rgba(0,0,0,0.4);
@@ -87,8 +88,11 @@
   top: 20px;
 }
 .caption {
-  position: absolute;
-  width: 500px;
-  left: 100px;
-  top: 50px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom:0;
+    margin: auto;
+    height: 300px;
+    text-align: center;
 }
