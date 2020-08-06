@@ -36,7 +36,7 @@
   opacity: 0.6;
   }
 .callbacks_nav.prev {
-    background: rgba(0,0,0,0.4);
+    background: rgba(243, 66, 56, 0.5);
     z-index: 2;
     width: 60px;
     height: 60px;
@@ -49,7 +49,7 @@
     margin-left: 30px;
 }
 .callbacks_nav.next {
-    background: rgba(0,0,0,0.4);
+    background: rgba(243, 66, 56, 0.5);
     z-index: 2;
     width: 60px;
     height: 60px;
